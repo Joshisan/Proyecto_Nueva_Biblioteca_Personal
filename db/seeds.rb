@@ -2,7 +2,7 @@ require "csv"
 
 puts "Importando categorías..."
 
-ruta_categorias = Rails.root.join("categorias.csv")
+ruta_categorias = Rails.root.join("db", "seeds", "categorias.csv")
 
 CSV.foreach(ruta_categorias, headers: true) do |fila|
   Categoria.find_or_create_by!(nombre: fila["nombre"]) do |categoria|
@@ -14,7 +14,7 @@ puts "Categorías importadas: #{Categoria.count}"
 
 puts "Importando libros..."
 
-ruta_libros = Rails.root.join("libros.csv")
+ruta_libros = Rails.root.join("db", "seeds", "libros.csv")
 
 CSV.foreach(ruta_libros, headers: true) do |fila|
   categoria = Categoria.find_by!(nombre: fila["categoria"])
