@@ -32,7 +32,7 @@ gem "csv"
 
 # Rails 8.1.3.1 compatibility
 # json 3.0.x currently causes errors when Rails reads encrypted session cookies
-gem "json", "2.21.2"
+gem "json", "3.0.2"
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
