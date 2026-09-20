@@ -40,6 +40,41 @@
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       defer
     ></script>
+
+    <!-- Ajustes del menú, agrupados aquí para revisar esta propuesta en un solo archivo -->
+    <style>
+      .mobile-menu-bar { display: contents; }
+      .mobile-menu-title, .sidebar-backdrop { display: none; }
+      @media (max-width: 991.98px) {
+        /* Sustituye el fondo visual anterior por un botón real de cierre */
+        .app-layout::before { content: none; }
+        .sidebar-backdrop {
+          display: block; position: fixed; inset: 0; z-index: 1030;
+          width: 100%; height: 100%; padding: 0; border: 0;
+          background: rgba(5, 18, 31, 0.48); cursor: pointer;
+        }
+        .sidebar-backdrop[hidden] { display: none; }
+        .mobile-menu-bar {
+          position: sticky; top: 0; z-index: 1020;
+          display: flex; align-items: center; gap: 0.75rem;
+          min-height: 4rem; padding: 0.625rem 1rem;
+          background: var(--color-background, #f4f7fa);
+          border-bottom: 1px solid var(--color-border, #dfe6ed);
+        }
+        .mobile-menu-title {
+          display: block; color: var(--color-primary, #0b1f33);
+          font-family: Georgia, serif; font-weight: 700;
+        }
+        .mobile-menu-bar .sidebar-open-button {
+          position: static; flex: 0 0 auto; opacity: 1;
+          visibility: visible; transform: none; z-index: auto;
+        }
+        .app-main, .app-layout.sidebar-collapsed .app-main {
+          padding-top: 1.5rem;
+        }
+        .app-sidebar { width: min(300px, 85vw); }
+      }
+    </style>
   </head>
 
   <body>
@@ -52,7 +87,7 @@
              Sidebar
              ========================================= -->
 
-        <aside class="app-sidebar" id="appSidebar">
+        <aside class="app-sidebar" id="appSidebar" aria-label="Menú principal" tabindex="-1">
 
           <!-- Botón para contraer/expandir -->
 
@@ -60,6 +95,7 @@
             type="button"
             class="sidebar-toggle"
             id="sidebarToggle"
+            aria-controls="appSidebar"
             aria-label="Contraer menú lateral"
             aria-expanded="true"
             title="Contraer menú"
@@ -210,6 +246,9 @@
 
         </aside>
 
+        <button type="button" class="sidebar-backdrop" id="sidebarBackdrop"
+          aria-label="Cerrar menú" tabindex="-1" hidden></button>
+
 
         <!-- =========================================
              Contenido principal
@@ -217,18 +256,24 @@
 
         <div class="app-content">
 
-          <!-- Botón hamburguesa cuando el sidebar está oculto -->
+          <header class="mobile-menu-bar">
+          <!-- Botón de apertura, integrado en una barra en móvil -->
 
           <button
             type="button"
             class="sidebar-open-button"
             id="sidebarOpenButton"
+            aria-controls="appSidebar"
+            aria-expanded="false"
             aria-label="Mostrar menú lateral"
             title="Mostrar menú"
           >
             <i class="bi bi-list"></i>
           </button>
 
+
+          <span class="mobile-menu-title">Biblioteca Personal</span>
+          </header>
 
           <main class="app-main">
 
@@ -260,52 +305,136 @@
            ========================================= -->
 
       <script>
-        function initializeSidebar() {
-          const layout = document.getElementById("appLayout");
-          const toggleButton = document.getElementById("sidebarToggle");
-          const openButton = document.getElementById("sidebarOpenButton");
-
-          if (!layout || !toggleButton || !openButton) return;
-
-          const storageKey = "biblioteca-sidebar-collapsed";
-
-          function setSidebarState(collapsed) {
-            layout.classList.toggle("sidebar-collapsed", collapsed);
-
-            toggleButton.setAttribute(
-              "aria-expanded",
-              collapsed ? "false" : "true"
-            );
-
-            toggleButton.setAttribute(
-              "aria-label",
-              collapsed ? "Mostrar menú lateral" : "Contraer menú lateral"
-            );
-
-            toggleButton.title = collapsed
-              ? "Mostrar menú"
-              : "Contraer menú";
-
-            localStorage.setItem(storageKey, collapsed ? "true" : "false");
+        (() => {
+          // Turbo vuelve a ejecutar los scripts del body, registrar una sola vez
+          if (window.bibliotecaSidebarManager) {
+            window.bibliotecaSidebarManager.initialize();
+            return;
           }
 
-          const savedState = localStorage.getItem(storageKey);
-
-          setSidebarState(savedState === "true");
-
-          toggleButton.onclick = function () {
-            setSidebarState(
-              !layout.classList.contains("sidebar-collapsed")
-            );
+          let cleanup = () => {};
+          const storageKey = "biblioteca-sidebar-collapsed";
+          const readDesktopState = () => {
+            try { return localStorage.getItem(storageKey) === "true"; }
+            catch { return false; }
           };
 
-          openButton.onclick = function () {
-            setSidebarState(false);
-          };
-        }
+          function initialize() {
+            cleanup();
+            cleanup = () => {};
+            const layout = document.getElementById("appLayout");
+            const sidebar = document.getElementById("appSidebar");
+            const toggle = document.getElementById("sidebarToggle");
+            const open = document.getElementById("sidebarOpenButton");
+            const backdrop = document.getElementById("sidebarBackdrop");
+            const content = layout?.querySelector(".app-content");
+            if (!layout || !sidebar || !toggle || !open || !backdrop || !content) return;
 
-        document.addEventListener("turbo:load", initializeSidebar);
-        document.addEventListener("DOMContentLoaded", initializeSidebar);
+            const media = window.matchMedia("(max-width: 991.98px)");
+            const controller = new AbortController();
+            const on = (target, event, handler) =>
+              target.addEventListener(event, handler, { signal: controller.signal });
+            const body = document.body;
+            let unlockScroll = null;
+            let desktopCollapsed = readDesktopState();
+
+            function lockScroll(locked) {
+              if (locked && !unlockScroll) {
+                const x = window.scrollX, y = window.scrollY;
+                const properties = ["position", "top", "left", "width", "overflow"];
+                const saved = properties.map(p => [p, body.style.getPropertyValue(p), body.style.getPropertyPriority(p)]);
+                body.style.position = "fixed";
+                body.style.top = (-y) + "px";
+                body.style.left = (-x) + "px";
+                body.style.width = "100%";
+                body.style.overflow = "hidden";
+                unlockScroll = () => {
+                  saved.forEach(([p, value, priority]) => {
+                    if (value) body.style.setProperty(p, value, priority);
+                    else body.style.removeProperty(p);
+                  });
+                  window.scrollTo(x, y);
+                };
+              } else if (!locked && unlockScroll) {
+                const restore = unlockScroll;
+                unlockScroll = null;
+                restore();
+              }
+            }
+
+            function setState(collapsed, { focus = false, save = false } = {}) {
+              const modalOpen = media.matches && !collapsed;
+              layout.classList.toggle("sidebar-collapsed", collapsed);
+              sidebar.inert = collapsed;
+              content.inert = modalOpen;
+              backdrop.hidden = !modalOpen;
+              sidebar.setAttribute("aria-hidden", String(collapsed));
+              if (modalOpen) {
+                sidebar.setAttribute("role", "dialog");
+                sidebar.setAttribute("aria-modal", "true");
+              } else {
+                sidebar.removeAttribute("role");
+                sidebar.removeAttribute("aria-modal");
+              }
+              toggle.setAttribute("aria-expanded", String(!collapsed));
+              open.setAttribute("aria-expanded", String(!collapsed));
+              toggle.setAttribute("aria-label", media.matches ? "Cerrar menú" : "Contraer menú lateral");
+              toggle.title = media.matches ? "Cerrar menú" : "Contraer menú";
+              toggle.querySelector("i").className = media.matches ? "bi bi-x-lg" : "bi bi-list";
+              lockScroll(modalOpen);
+              if (save && !media.matches) {
+                desktopCollapsed = collapsed;
+                try { localStorage.setItem(storageKey, String(collapsed)); } catch {}
+              }
+              if (focus) (collapsed ? open : toggle).focus({ preventScroll: true });
+            }
+
+            on(toggle, "click", () => setState(true, { focus: true, save: true }));
+            on(open, "click", () => setState(false, { focus: true, save: true }));
+            on(backdrop, "click", () => setState(true, { focus: true }));
+            on(sidebar, "click", event => {
+              if (media.matches && event.target.closest("a[href]")) setState(true, { focus: true });
+            });
+            on(document, "keydown", event => {
+              if (!media.matches || layout.classList.contains("sidebar-collapsed")) return;
+              if (event.key === "Escape") {
+                event.preventDefault();
+                setState(true, { focus: true });
+              }
+              if (event.key === "Tab") {
+                const nodes = [...sidebar.querySelectorAll('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex="0"]')]
+                  .filter(node => node.getClientRects().length && !node.closest("[inert]"));
+                const first = nodes[0], last = nodes[nodes.length - 1];
+                if (!first) { event.preventDefault(); sidebar.focus(); return; }
+                if (event.shiftKey && (document.activeElement === first || document.activeElement === sidebar)) {
+                  event.preventDefault(); last.focus();
+                } else if (!event.shiftKey && document.activeElement === last) {
+                  event.preventDefault(); first.focus();
+                }
+              }
+            });
+            on(media, "change", () => {
+              const focusInside = sidebar.contains(document.activeElement);
+              setState(media.matches ? true : desktopCollapsed);
+              if (focusInside && layout.classList.contains("sidebar-collapsed")) open.focus({ preventScroll: true });
+            });
+            on(document, "turbo:before-cache", () => {
+              if (media.matches) setState(true);
+              lockScroll(false);
+            });
+            setState(media.matches ? true : desktopCollapsed);
+            cleanup = () => {
+              controller.abort();
+              lockScroll(false);
+              content.inert = false;
+            };
+          }
+
+          window.bibliotecaSidebarManager = { initialize };
+          document.addEventListener("turbo:load", initialize);
+          document.addEventListener("DOMContentLoaded", initialize, { once: true });
+          initialize();
+        })();
       </script>
 
     <% else %>

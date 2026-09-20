@@ -124,6 +124,110 @@
 
 </div>
 
+<section class="dashboard-charts mb-5" aria-label="Estadísticas de biblioteca">
+
+  <article class="dashboard-chart">
+    <h2 class="dashboard-chart-title">Tus lecturas</h2>
+
+    <p class="dashboard-chart-description">
+      Distribución de los libros que agregaste a Mi biblioteca
+    </p>
+
+    <% if @total_lecturas.positive? %>
+      <div class="dashboard-reading-chart">
+        <div
+          class="dashboard-donut"
+          aria-hidden="true"
+          style="
+            --read-end: <%= @porcentaje_leidos %>%;
+            --progress-end: <%= @porcentaje_leidos + @porcentaje_en_proceso %>%;
+          "
+        >
+          <div class="dashboard-donut-center">
+            <strong><%= @total_lecturas %></strong>
+            <span>en tu biblioteca</span>
+          </div>
+        </div>
+
+        <ul class="dashboard-chart-legend">
+          <li>
+            <span class="dashboard-legend-name">
+              <span class="dashboard-chart-dot dashboard-chart-read"
+                    aria-hidden="true"></span>
+              Leídos
+            </span>
+            <strong><%= @total_leidos %></strong>
+          </li>
+
+          <li>
+            <span class="dashboard-legend-name">
+              <span class="dashboard-chart-dot dashboard-chart-progress"
+                    aria-hidden="true"></span>
+              En proceso
+            </span>
+            <strong><%= @total_en_proceso %></strong>
+          </li>
+
+          <li>
+            <span class="dashboard-legend-name">
+              <span class="dashboard-chart-dot dashboard-chart-pending"
+                    aria-hidden="true"></span>
+              Pendientes
+            </span>
+            <strong><%= @total_pendientes %></strong>
+          </li>
+        </ul>
+      </div>
+    <% else %>
+      <div class="dashboard-chart-empty">
+        <i class="bi bi-bookmark-heart" aria-hidden="true"></i>
+        <p>
+          Todavía no tienes lecturas registradas, agrega un libro
+          a Mi biblioteca para ver tu progreso
+        </p>
+      </div>
+    <% end %>
+  </article>
+
+  <article class="dashboard-chart">
+    <h2 class="dashboard-chart-title">Libros por categoría</h2>
+
+    <p class="dashboard-chart-description">
+      Distribución del catálogo completo
+    </p>
+
+    <% if @libros_por_categoria.any? %>
+      <ol class="dashboard-category-chart"
+          tabindex="0"
+          aria-label="Libros por categoría, lista desplazable"
+          style="max-height: 320px; overflow-y: auto; padding-right: 0.65rem;">
+        <% @libros_por_categoria.each do |nombre, cantidad| %>
+          <li>
+            <div class="dashboard-category-heading">
+              <span><%= nombre %></span>
+              <strong>
+                <%= cantidad %>
+                <span class="visually-hidden">libros</span>
+              </strong>
+            </div>
+
+            <div class="dashboard-category-track" aria-hidden="true">
+              <span
+                style="width: <%= cantidad.fdiv(@maximo_categoria) * 100 %>%"
+              ></span>
+            </div>
+          </li>
+        <% end %>
+      </ol>
+    <% else %>
+      <div class="dashboard-chart-empty">
+        <i class="bi bi-bookshelf" aria-hidden="true"></i>
+        <p>Las categorías aparecerán cuando haya libros registrados</p>
+      </div>
+    <% end %>
+  </article>
+
+</section>
 
 <!-- Acceso al catálogo -->
 
