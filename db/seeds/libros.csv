@@ -1,355 +1,355 @@
-id_libro,isbn,titulo,autor,categoria,anio_publicacion,idioma,editorial,unidades,leido,notas
-1,9786073198912,¡Salvese quien pueda!,Andres Oppenheimer,Economía,2025,Español,Penguin Randon House Grupo Editorial,1,f,
-2,"",¿Democracia en Costa Rica? 5 Opiniones Polémicas,"Chester Zelaya, Oscar Aguilar Bulgarelli, Daniel Camacho, Rodolfo Cerdas, Jacobo Schifter",Relaciones Internacionales,1978,Español,EUNED,1,f,
-3,9788413148984,¿Quién Domina el Mundo?,Noam Chomsky,Relaciones Internacionales,2024,Español,Penguin Random House Grupo Editorial,1,t,
-4,9781592235926,101 Fantastic Low Carb Recipes,Nicola Graimes,Cocina,2006,Ingles,Thunder Bay Press,1,f,
-5,9789977679662,11 de Setiembre del 2001 - Cambios y Retos,Nuria Marin Raventos,Relaciones Internacionales,2008,Español,Editorial UCR,1,f,
-6,9977830371,"1492-1992, La Interminable Conquista","Gioconda Belli, et al",Historia,1991,Español,Editorial DEI,1,f,
-7,9789807716147,1984,George Orwell,Ciencia Ficción,,Español,lucemar,1,t,
-8,Rev-001,50 Recetas Fáciles y Económicas,Revista Sabores,Cocina,2004,Español,Grupo Nacion,1,f,
-9,9788419621184,Al otro lado,Mike Lightwood,LGTBIQ,2023,Español,Ediciones SM,1,f,
-10,9788408284550,Alas de Hierro,Rebecca Yarros,Fantasía Épica,2024,Español,Editorial Planeta Mexicana,1,t,
-11,9786073923163,Alas de Onix,Rebecca Yarros,Fantasía Épica,2025,Español,Editorial Planeta Mexicana,1,t,
-12,9788408279990,Alas de Sangre,Rebecca Yarros,Fantasía Épica,2023,Español,Editorial Planeta Mexicana,1,t,
-13,9788415618713,Alicia en el País de las Maravillas,Lewis Carroll,Español,2017,Español,Anders Producciones S.L,1,f,
-14,,Alma Infantil,Jose Maria Zeledon,Literatura Costarricense,1928,Español,Imprenta Lehmann,1,t,
-15,9789977652818,América Latina - Crisis del Estado Clientelista y la Construcción de Repúblicas Ciudadanas,"Miguel Sobrado, Juan Jose Rojas",Relaciones Internacionales,2006,Español,EUNA,1,t,
-16,9788426133977,Anna Karenina,Leon Tolstoi,Literatura Clásica,2012,Español,Editorial Juventud,1,f,
-17,9789871093670,Apología de Socrates,Platón,Filosofía,2007,Español,Gradifco,1,f,
-18,9788418385680,Arsene Lupin - Caballero Ladron,Maurice Leblanc,Literatura Clásica,2022,Español,Editorial Alma,1,f,
-19,9788419252883,Asesino de Brujas,Shelby Mahurin,Fantasía Épica,2024,Español,Urano World Spain,1,f,
-20,9786078828920,Autoboyography,Christina Lauren,LGTBIQ,2024,Español,VR Editoras,1,f,
-21,9788410399044,Black Bird Academy - Amor a la Muerte,Stella Tack,Fantasía Épica,2025,Español,Editorial Inlov,1,t,
-22,9788410399013,Black Bird Academy - Muerte a la Oscuridad,Stella Tack,Fantasía Épica,2024,Español,Editorial Inlov,1,t,
-23,9788410399037,Black Bird Academy - Temor a la Luz,Stella Tack,Fantasía Épica,2025,Español,Editorial Inlov,1,t,
-24,9781728206141,Boyfriend Material,Alexis Hall,LGTBIQ,2020,Ingles,Sourcebooks casablanca,1,t,
-25,9788499926551,Brasil - Una Biografía,"Lillia M. Schwarcz, Heloisa M. Starling",Relaciones Internacionales,2016,Español,Penguin Random House Grupo Editorial,1,f,
-26,9788419467430,Bravas y Soju,Victor Guez,LGTBIQ,2023,Español,Editorial de Nuevo Extremo S.L,1,t,
-27,9789681649890,Breve Historia Contemporánea de Costa Rica,Hector Perez Brignoli,Historia,2002,Español,Fondo de Cultura Economica,1,t,
-28,9786078828050,Brothersong - La Canción de los Hermanos,TJ Klune,LGTBIQ,2023,Español,VR Editoras,1,f,
-29,9780061561610,"Capitalism, Socialism and Democracy",Joseph A. Schumpeter,Relaciones Internacionales,2008,Español,HarperCollins,1,f,
-30,,Celebridades,Carmina Verdejo,Historia,1972,Español,Editorial Ramon Sopena,1,f,
-31,9788466341127,Charles Street N.44,Danielle Steel,Novela Romántica y Erótica,2017,Español,Penguin Random House Grupo Editorial,1,t,
-32,9788416858354,Chico Conoce a Chico,David Levithan,LGTBIQ,2018,Español,Nocturna Ediciones,1,t,
-33,9788408003939,Chomsky Esencial,Noam Chomsky,Relaciones Internacionales,2022,Español,Editorial Planeta,1,f,
-34,9786073108409,Choque de Reyes - Cancion de Hielo y Fuego II,George R.R. Martin,Fantasía Épica,2012,Español,Random House Mondadori,1,f,
-35,9788410190443,Ciudad Medialuna - Casa de Cielo y Aliento,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,
-36,9788410190603,Ciudad Medialuna - Casa de Llama y Sombra,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,
-37,9788410190108,Ciudad Medialuna - Casa de Tierra y Sangre,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,
-38,Rev-002,Cocina Costarricense,Revista Sabores,Cocina,2003,Español,Grupo Nacion,1,f,
-39,9781407584980,Cocina Español,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,
-40,9781407585055,Cocina Italiana,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,
-41,9781407584959,Cocina Méxicana,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,
-42,9781407585000,Cocina Turca,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,
-43,9789968519038,Cocori,Joaquin Gutierrez,Literatura Costarricense,2019,Español,Editorial Legado,1,t,
-44,"",Colección Norberto Castro - Tomo 1,Academia Costarricense de Ciencias Genealogicas,Genealogía,1975,Español,ACCG,1,t,
-45,"",Colección Norberto Castro - Tomo 2,Academia Costarricense de Ciencias Genealogicas,Genealogía,1976,Español,ACCG,1,t,
-46,"",Colección Norberto Castro - Tomo 3,Academia Costarricense de Ciencias Genealogicas,Genealogía,1978,Español,ACCG,1,t,
-47,"",Colección Norberto Castro - Tomo 4,Academia Costarricense de Ciencias Genealogicas,Genealogía,1981,Español,ACCG,1,t,
-48,"",Colección Norberto Castro - Tomo 5,Academia Costarricense de Ciencias Genealogicas,Genealogía,1983,Español,ACCG,2,t,
-49,"",Colección Norberto Castro - Tomo 6,Academia Costarricense de Ciencias Genealogicas,Genealogía,1988,Español,ACCG,1,t,
-50,"",Colección Norberto Castro - Tomo 7,Academia Costarricense de Ciencias Genealogicas,Genealogía,1992,Español,ACCG,1,t,
-51,9788466330343,"Come, Reza, Ama",Elizabeth Gilbert,Novela Romántica y Erótica,2016,Español,Penguin Random House Grupo Editorial,1,t,
-52,9789968311472,Comercio Internacional,Rodolfo Tacsan Chen,Economía,2007,Español,EUNED,1,t,
-53,9789968590013,Comunicacion Escrita,Ethel Pazos Jimenez,Administración y Negocios,2009,Español,Editorial Secade,1,t,
-54,9788491040255,Confesiones de una Máscara,Mishima,LGTBIQ,2017,Español,Alianza Editorial,1,f,
-55,"",Costa Rica - Su evolución geológica esta en el fondo del mar,Victor Cortes,Historia,,Español,Editorial Guayacan,1,f,
-56,9789968313506,Costa Rica y sus Hechos Políticos de 1948,Oscar Aguilar Bulgarelli,Historia,2004,Español,EUNED,1,t,
-57,"",Crónicas Coloniales,Ricardo Fernandez Guardia,Historia,1967,Español,Editorial Costa Rica,1,f,
-58,9788497643702,Cuaderno de Notas,Leonardo da Vinci,Literatura Clásica,2010,Español,EDIMAT Libros,1,f,
-59,9788419939531,Cuando Haru estuvo aquí,Dustin Thao,LGTBIQ,2024,Español,Ediciones Kiwi S.L,1,f,
-60,0009707800814,Cuentos Chinos,Andres Oppenheimer,Relaciones Internacionales,2011,Español,Random House Mondadori,1,t,
-61,9788410206809,Cuentos Imprescindibles del Siglo XX de América Latina,"Daniel Centeno Maldonado, Carlos Sandoval",Literatura Latinoamericana,2025,Español,Editorial Alma,2,f,
-62,9788497643665,De la Tierra a la Luna,Julio Verne,Ciencia Ficción,2009,Español,EDIMAT Libros,1,t,
-63,,De nuestra historia patria los primeros dias de independencia,Rafael Obregon Loria,Historia,1971,Español,Editorial UCR,1,f,
-64,9788417854317,De Sangre y Cenizas,Jennifer L. Armentrout,Fantasía Épica,2024,Español,Urano World Spain,1,f,
-65,"",Democracia y Participación Política,Ruben Hernandez Valle,Relaciones Internacionales,1991,Español,Editorial Juricentro,1,t,
-66,9786071125255,Días de Sangre y Resplandor,Laini Taylor,Fantasía Épica,2012,Español,Alfaguardia,1,f,
-67,9788427201187,Divergente,Veronica Roth,Ciencia Ficción,2014,Español,RVA Libros,1,f,
-68,9780140623390,Dracula,Bram Stoker,Inglés,1994,Ingles,Penguin Books,1,f,
-69,9788416365876,Drácula,Bram Stoker,Español,2024,Español,Mestas Ediciones,1,f,
-70,9789706868411,Economía en el Trópico,"Edgar A. Robles, Gilberto E. Arce, Eduardo Lizano",Economía,2008,Español,Thomson,1,t,
-71,9788484455646,El Arte de la Fermentación,Sandor Ellix Katz,Cocina,2024,Español,Gaia Ediciones,1,f,
-72,9788493806156,El Arte de la Guerra,Sun Tzu,Filosofía,2017,Español,Pluton Ediciones,1,t,
-73,9789871093274,El Banquete - Critón,Platón,Filosofía,2007,Español,Gradifco,1,t,
-74,9788410121218,El Camino Estoíco,Epicteto,Filosofía,2025,Español,Editorial Reverte,1,f,
-75,9788497647984,El Cantar de Mio Cid,Anonimo,Literatura Clásica,2010,Español,EDIMAT Libros,1,f,
-76,9789968483087,El Cíclo Contable,Alexandra Gomez Hernandez,Administración y Negocios,2020,Español,EUNED,1,f,
-77,9789681505189,El Contrato Social,Juan Jacobo Rousseau,Relaciones Internacionales,2005,Español,Editores Mexicanos Unidos,1,t,
-78,9789968314886,El cuarto viaje de Cristobal Colon y origenes de la provincia de Costa Rica,Luis Fernando Sibaja,Historia,2006,Español,EUNED,1,f,
-79,9788410197077,El Dragón Blanco,Anne McCaffrey,Fantasía Épica,2024,Español,Penguin Randon House Grupo Editorial,1,f,
-80,9788441421325,El Enigma Nazi,"Jose Lesta, Miguel Pedrero",Relaciones Internacionales,2009,Español,EDAF,1,t,
-81,,El Existencialismo es un Humanismo,Hernan R. Mora Calvo,Filosofía,1997,Español,Editorial Guayacan,1,f,
-82,9788416620197,El Fuego en el que Ardo,Mike Lightwood,LGTBIQ,2016,Español,Plataforma Editorial,1,f,
-83,9788419030825,El Heredero Oscuro,C.S. Pacat,LGTBIQ,2024,Español,UMBRIEL,1,t,
-84,9788417002046,El Hielo de mis Venas,Mike Lightwood,LGTBIQ,2017,Español,Plataforma Editorial,1,f,
-85,9788491297932,El Hijo del Tiempo,Deborah Harkness,Fantasía Épica,2022,Español,Penguin Randon House Grupo Editorial,1,f,
-86,9788445000656,El Hobbit,J.R.R. Tolkien,Español,2012,Español,Editorial Planeta Mexicana,1,t,
-87,9788408050322,El Huracan Lleva tu Nombre,Jaime Bayly,LGTBIQ,2004,Español,Planeta,1,f,
-88,9788412779868,El Laboratorio Palestino,Antony Loewenstein,Relaciones Internacionales,2024,Español,Capitan Swing,1,f,
-89,9788420674292,El Lobo Estepario,Hermann Hesse,Español,2016,Español,Alianza Editorial,1,f,
-90,9789876284783,El Maestro Ignorante,Jacques Ranciere,Español,2018,Español,edhasa,1,f,
-91,9788497644617,El Mercader de Venecia,William Shakespeare,Literatura Clásica,2010,Español,EDIMAT Libros,1,t,
-92,9788466344180,El Metodo Ikigai,"Hector Garcia, Francesc Miralles",Administración y Negocios,2023,Español,Penguin Random House Grupo Editorial,1,t,
-93,9789977237602,El Negro en Costa Rica,"Quince Duncan, Carlos Melendez",Historia,2005,Español,Editorial Costa Rica,1,t,
-94,9788419468024,El Niño con el Pijama de Rayas,John Boyne,Español,2023,Español,Penguin Random House Grupo Editorial,1,f,
-95,9788466354028,El Nombre del Viento,Patrick Rothfuss,Fantasía Épica,2024,Español,Penguin Randon House Grupo Editorial,1,f,
-96,9789681513030,El Principe,Nicolas Maquiavelo,Relaciones Internacionales,2008,Español,Editores Mexicanos Unidos,1,t,
-97,9788410085220,El Principe Cautivo - El Esclavo,C.S. Pacat,LGTBIQ,2024,Español,UMBRIEL,1,t,
-98,9788410085244,El Principe Cautivo - El Guerrero,C.S. Pacat,LGTBIQ,2024,Español,UMBRIEL,1,t,
-99,9788410085305,El Principe Cautivo - El Rey,C.S. Pacat,LGTBIQ,2024,Español,UMBRIEL,1,t,
-100,9788467738674,El Principito,Antoine de Saint-Exupery,Español,,Español,Ediciones Jadine,1,t,
-101,9782070408504,Le Petit Prince,Antoine de Saint-Exupery,Francés,2020,Frances,Editions Gallimard,1,t,
-102,9788498381498,El Principito,Antoine de Saint-Exupery,Español,2021,Español,Penguin Random House Grupo Editorial,1,t,
-103,9788461418602,El Retrato de Dorian Gray,Oscar Wilde,Español,2010,Español,EDAF,1,f,
-104,9788416517756,El Rey Oscuro,C.S. Pacat,LGTBIQ,2022,Español,UMBRIEL,1,t,
-105,9788479536442,El Secreto,Rhonda Byne,Salud,2006,Español,Ediciones Urano,1,f,
-106,9788420674179,El Señor de las Moscas,Willian Golding,Español,2017,Español,Alianza Editorial,1,t,
-107,9788497644693,El Sueño de una Noche de Verano,William Shakespeare,Literatura Clásica,2010,Español,EDIMAT Libros,1,t,
-108,9788466378307,El Temor de un Hombre Sabio,Patrick Rothfuss,Fantasía Épica,2025,Español,Penguin Randon House Grupo Editorial,1,f,
-109,9788410197022,El Vuelo del Dragón,Anne McCaffrey,Fantasía Épica,2024,Español,Penguin Randon House Grupo Editorial,1,t,
-110,9789968482400,Elementos de Estadística Descriptiva,Miguel Gomez Barrantes,Administración y Negocios,2021,Español,EUNED,1,t,
-111,9788495311740,Elogio de la Locura,Erasmo de Rotterdam,Filosofía,2009,Español,Mestas Ediciones,1,t,
-112,9788497644785,Eneida,Virgilio,Literatura Clásica,2010,Español,EDIMAT Libros,1,f,
-113,9789871093618,Ensayo Sobre el Gobierno Civil,John Locke,Relaciones Internacionales,2007,Español,Gradifco,1,t,
-114,9789968313421,Estado de Bienestar - Crisis Económica y Ajuste Estructural en Costa Rica,Rafael A. Sanchez Sanchez,Economía,2004,Español,EUNED,1,t,
-115,9788484456810,Este dolor no es mío,Mark Wolynn,Salud,2016,Español,Gaia Ediciones,1,f,
-116,,Esteban Lorenzo de Tristan - Fundador de Alajuela,Ricardo Blanco Segura,Genealogía,1983,Español,Museo Historico Cultural Juan Santamaria,1,t,
-117,9789587789003,"Estructura de Datos - Un enfoque con Python, Java y C++","Enrique Gomez Jimenez, Percy Canipa Valdez",Ingeniería Informática,2023,Español,Alpha Editorial,2,t,
-118,9788415552222,Estructura de Datos en Java - 4ta Edición,Mark Allen Weiss,Ingeniería Informática,2013,Español,Pearson Educacion,2,t,
-119,9788495311658,Ética a Nicomaco,Aristoteles,Filosofía,2010,Español,Mestas Ediciones,1,t,
-120,"",Ética y Política,Roberto Canas,Relaciones Internacionales,2019,Español,EUNED,1,t,
-121,9977953155,Familias Alajuelenses en los Libros Parroquiales - Tomo 1,Rafael Obregon Loria,Genealogía,1993,Español,Museo Historico Cultural Juan Santamaria,1,t,
-122,,Familias Alajuelenses en los Libros Parroquiales - Tomo 2,Rafael Obregon Loria,Genealogía,1995,Español,Museo Historico Cultural Juan Santamaria,1,t,
-123,,Familias Alajuelenses en los Libros Parroquiales - Tomo 3,Rafael Obregon Loria,Genealogía,1995,Español,Museo Historico Cultural Juan Santamaria,1,t,
-124,,Familias Alajuelenses en los Libros Parroquiales - Tomo 4,Rafael Obregon Loria,Genealogía,1996,Español,Museo Historico Cultural Juan Santamaria,1,t,
-125,,Familias Alajuelenses en los Libros Parroquiales - Tomo 5,Rafael Obregon Loria,Genealogía,1997,Español,Museo Historico Cultural Juan Santamaria,1,t,
-126,,Familias Alajuelenses en los Libros Parroquiales - Tomo 7,Rafael Obregon Loria,Genealogía,,Español,Museo Historico Cultural Juan Santamaria,1,t,
-127,978997202159,Fiestas y Cocteles,Cocina Creativa,Cocina,2007,Español,Empresa Editora El Comercio S.A.,1,f,
-128,9780140623321,Frankenstein,Mary Shelley,Inglés,1994,Ingles,Penguin Books,1,f,
-129,9788492892631,Frankenstein,Mary Shelley,Literatura Clásica,2022,Español,Mestas Ediciones,1,f,
-130,9789968530020,Frecuentes Errores,Ethel Pazos Jimenez,Administración y Negocios,2009,Español,Editorial Secade,1,t,
-131,9788448190330,Fundamentos de Bases de Datos,"Avi Silberschatz, Hank Korth, S. Sudarshan",Ingeniería Informática,2014,Español,Mc Graw Hill,1,t,
-132,9789968936682,Geopolítica y Conflicto en el Caucaso,"Antonio Barrios Oviedo, Maria Laura Arce Saldias",Relaciones Internacionales,2008,Español,Editorial UCR,1,t,
-133,9789968489263,Globalización y Ambiente,Alex Cambronero Esquivel,Economía,2021,Español,EUNED,1,t,
-134,9791387724580,Legacy of Gods - (V) God of Fury ,Rina Kent,LGTBIQ,2026,Español,Montena - Penguin Random House Grupo Editorial ,1,t,
-135,9786074441093,Golosinas,El Mundo de la Reposteria,Cocina,2010,Español,Unimago S.A.,1,f,
-136,9788441322783,Gran Historia Universal - Epoca Helenística,S.d.,Historia,2006,Español,Folio,1,f,
-137,9780140623642,Gullivers Travels,Jonathan Swift,Inglés,1994,Ingles,Penguin Books,1,f,
-138,9786075691251,Hábitos Atómicos,James Clear,Salud,2018,Español,Editorial Planeta - Paidos,1,t,
-139,9789968936699,Hacia una pedagogía del encuentro cultural,"Maria del Carmen Araya Jimenez, Sergio Villena Fiengo",Relaciones Internacionales,2008,Español,Editorial UCR,1,f,
-140,9788498387568,Harry Potter y el Legado Maldito,Jack Thorne,Español,2016,Español,Publicaciones y Ediciones Salamandra,1,t,
-141,9788498382662,Harry Potter y la Piedra Filosofal,J.K. Rowling,Español,1999,Español,Publicaciones y Ediciones Salamandra,1,f,
-142,9786078712287,Heartsong - La Canción del Corazón,TJ Klune,LGTBIQ,2024,Español,VR Editoras,1,f,
-143,9786074044454,Helados y Nieves,Anne McRae,Cocina,2011,Español,Degustis,1,t,
-144,9788420410982,Hija de Humo y Hueso,Laini Taylor,Fantasía Épica,2011,Español,Alfaguardia,1,t,
-145,9789968319331,História de la Cultura,"David Diaz Arias, et al.",Historia,2020,Español,EUNED,1,t,
-146,9977310661,Historia Diplomática de Costa Rica,Jorge Francisco Saenz Carbonell,Relaciones Internacionales,1995,Español,Editorial Juricentro,1,f,
-147,9788497943970,"Humanismo, Demasiado Humano",Friedrich Nietzsche,Filosofía,2018,Español,EDIMAT Libros,1,f,
-148,9781728250922,Husband Material,Alexis Hall,LGTBIQ,2022,Ingles,Sourcebooks casablanca,1,t,
-149,9788497644907,Iliada,Homero,Literatura Clásica,2010,Español,EDIMAT Libros,1,f,
-150,9968834990,Impúdicas Pasiones,Julian A. Garnier,LGTBIQ,2011,Español,Ediciones Perro Azul,1,t,
-151,9788466330367,Inevitable Desastre,Jamie McGuire,Novela Romántica y Erótica,2017,Español,Penguin Random House Grupo Editorial,1,t,
-152,9789587780444,Ingeniería de Software,"Guillermo Pantaleo, Ludmila Rinaudo",Ingeniería Informática,2015,Español,Alfaomega Grupo Editor,2,t,
-153,9789587785418,Inteligencia de Negocios y Analítica de Datos,Luis Joyanes Aguilar,Ingeniería Informática,2019,Español,Alfaomega Grupo Editor,1,t,
-154,9786071520296,Introducción a la Investigación de Operaciones,"Frederick S. Hillier, Gerald J. Lieberman",Ingeniería Informática,2023,Español,Mc Graw Hill,2,t,
-155,9786074421118,Introducción a la Programación con C++,"Harvey M. Deitel, Paul J. Deitel",Ingeniería Informática,2009,Español,Pearson Educacion,1,t,
-156,9977200351,Inversión Pública y Desarrollo Humano,ICAP,Administración y Negocios,1996,Español,Editorial ICAP,1,f,
-157,9788423426058,Inversores y Mercados,William F. Sharpe,Economía,2008,Español,Ediciones Deusto,1,f,
-158,9789977679327,Irak - Pasado y presente de un país atormentado,Luis Guillermo Solis Rivera,Relaciones Internacionales,2008,Español,Editorial UCR,1,t,
-159,9788427040090,Kama-Sutra Gay,Alicia Gallotti,LGTBIQ,2003,Español,Ediciones Planeta Madrid,1,t,
-160,,La Biblia,S.d.,Español,1979,Español,Sociedades Biblicas Unidas,1,t,
-161,9788410197084,La Busqueda del Dragon,Anne McCaffrey,Fantasía Épica,2024,Español,Penguin Randon House Grupo Editorial,1,f,
-162,9788411485166,La Canción de Aquiles,Madeline Miller,LGTBIQ,2023,Español,AdN Alianza de Novelas,1,f,
-163,9789977651897,La Ciudad de los Monos,Ivan Molina Jimenez,Literatura Costarricense,2008,Español,Editorial UCR,1,t,
-164,848238032X,La Cocina de Hoy - Las Salsas,La Revista Gran Clase,Cocina,1997,Español,Editorial Agata,1,f,
-165,,La descendencia de Don Juan Vicente Acosta Chaves,"Ricardo Acosta Ruiz, Julio E. Revollo Acosta",Genealogía,2011,Español,Autopublicado,1,t,
-166,9789968942119,La Desmovilizacion Militar en America Central,Rogelio Cedeno Castro,Relaciones Internacionales,2008,Español,Dicelibros,1,f,
-167,9788431324391,La Disolución de Yugoslavia,"Romualdo Bermejo Garcia, Cesareo Gutierrez Espada",Relaciones Internacionales,2007,Español,EUNSA,1,t,
-168,9788497943925,La Divina Comedia,Dante Alighieri,Literatura Clásica,2018,Español,EDIMAT Libros,1,f,
-169,997767132X,La Era de la Encomienda,Claudia Quiros,Historia,2001,Español,Editorial UCR,1,f,
-170,9788417114909,La Estrella de Mis Noches,Mike Lightwood,LGTBIQ,2018,Español,Plataforma Editorial,1,f,
-171,9789968474436,La Etiqueta y el Protocolo en los Negocios,Jenny Scott Araya,Relaciones Internacionales,2011,Español,S.d.,1,t,
-172,9789968474481,La Familia Steffen,"Alban Jesus Cambronero Acosta, Ligia Maria Cambronero Garcia",Genealogía,2011,Español,Mauricio Melendez Obando,1,t,
-173,9789977679679,La Formación del Ciudadano Costarricense de 1821 a 1886,Maria de los Angeles Palacios Robles,Relaciones Internacionales,2008,Español,Editorial UCR,1,f,
-174,9786287659582,La Furia,Alex Michaelides,Español,2024,Español,Penguin Random House Grupo Editorial,1,f,
-175,9788497647038,La Genealogía de la Moral,Friedrich Nietzsche,Filosofía,2011,Español,EDIMAT Libros,1,f,
-176,9786071648907,La Globalización,Zygmunt Bauman,Economía,2022,Español,Fondo de Cultura Economica,1,f,
-177,9787802002302,La Historia China,The Overseas Chinese Affairs Office,Historia,2006,Español,The Overseas Chinese Affairs Office,1,t,
-178,9789875749276,La Historia de Argentina Nacional y Popular,Alberto Lettieri,Historia,2018,Español,Prometeo Libros,1,f,
-179,92964,La Maison Royale des Deux Siciles,Marques de Villareal de Alava,Historia,1964,Español,Altamira,1,f,
-180,9788497643474,La Metamorfosis,Franz Kafka,Filosofía,2011,Español,EDIMAT Libros,1,f,
-181,9789968460224,La Noticia como Recurso Didactico,Lilly Edgerton,Relaciones Internacionales,2008,Español,Editorial UCR,1,f,
-182,9788475670058,La Odisea,Homero,Literatura Clásica,2002,Español,Editorial ALBA,1,f,
-183,9789968462440,La Problematica del Agua en Costa Rica,Ricardo Valverde Sanchez,Relaciones Internacionales,2008,Español,Editorial UCR,1,f,
-184,9788497647113,La Republica,Platon,Filosofía,2018,Español,EDIMAT Libros,1,t,
-185,9788420650968,La Riqueza de las Naciones,Adam Smith,Economía,2014,Español,Alianza Editorial,1,t,
-186,9788445010631,La Rueda del Tiempo - Desde Dos Rios,Robert Jordan,Fantasía Épica,2021,Español,Editorial Planeta,1,f,
-187,9788434433175,La Sociedad Decadente,Ross Douthat,Economía,2021,Español,Editorial Ariel,1,f,
-188,9788415618829,Las Aventuras de Sherlock Holmes,Arthur Conan Doyle,Literatura Clásica,2018,Español,Editorial Alma,1,f,
-189,9788410214217,Las Cuentas de Centroamerica,"Luis Guillermo Solis Rivera, et al.",Relaciones Internacionales,2024,Español,Penguin Randon House Grupo Editorial,1,f,
-190,9977930074,Las Primeras Damas de Costa Rica,"Jorge Francisco Saenz Carbonell, et al.",Historia,2001,Español,Instituto Costarricense de Electricidad,1,t,
-192,9788411211277,Liderazgo Emocional,"Cary Cherniss, Cornelia W. Roche",Administración y Negocios,2020,Español,Editorial Kairos,1,f,
-193,9788418222566,Links,Natzuki Kizu,LGTBIQ,2014,Español,Milky Way Ediciones,1,t,
-194,9788420473895,Llamame por tu nombre,Andre Aciman,LGTBIQ,2018,Español,Penguin - Alfaguardia,1,t,
-195,7441025500350,Lo mejor de la Cocina - 84 Recetas,Revista Perfil,Cocina,2007,Español,Grupo Nacion,1,f,
-196,9788433924568,Los amigos que perdi,Jaime Bayly,Literatura Latinoamericana,2000,Español,Editorial Anagrama,1,f,""
-197,9977200009,Los aspectos humanos de la organizacion,"Jean-Louis Bergeron, et al.",Administración y Negocios,1983,Español,Editorial ICAP,1,f,
-198,9786078828746,Los Extraordinarios,TJ Klune,LGTBIQ,2023,Español,VR Editoras,1,f,
-199,9788466359917,Los Innovadores,Walter Isaacson,Administración y Negocios,2022,Español,Penguin Randon House Grupo Editorial,1,f,
-200,9788427202122,Los Juegos del Hambre,Suzanne Collins,Ciencia Ficción,2008,Español,RBA Molino,1,f,
-201,9783833124471,Los Mejores Cocteles de Nueva York,Sally Ann Beck,Cocina,2006,Español,Konemann,1,f,
-202,9788420643489,Los Mitos Griegos 1,Robert Graves,Historia,2017,Español,Alianza Editorial,1,f,""
-203,9789588991832,Los Reyes Malditos - El Rey de Hierro,Maurice Druon,Fantasía Épica,2017,Español,Ediciones B,1,f,
-204,9789588991863,Los Reyes Malditos - La Ley de los Varones,Maurice Druon,Fantasía Épica,2017,Español,Ediciones B,1,f,
-205,9789588991870,Los Reyes Malditos - La Loba de Francia,Maurice Druon,Fantasía Épica,2017,Español,Ediciones B,1,f,
-206,9789588991849,Los Reyes Malditos - La Reina Estrangulada,Maurice Druon,Fantasía Épica,2017,Español,Ediciones B,1,f,
-207,9789588991856,Los Reyes Malditos - Los Venenos de la Corona,Maurice Druon,Fantasía Épica,2017,Español,Ediciones B,1,f,
-208,9788497644938,Macbeth,William Shakespeare,Literatura Clásica,2010,Español,EDIMAT Libros,1,t,
-209,9788437605883,Madame Bovary,Gustave Flaubert,Literatura Clásica,2016,Español,Ediciones Catedra,1,t,
-210,9789506202019,Malvinas 1833,Arnoldo Canclini,Historia,2014,Español,Editorial Claridad,1,f,
-211,9788495311689,Manifiesto del Partido Comunista,"Karl Marx, Friedrich Engels",Relaciones Internacionales,2007,Español,Mestas Ediciones,1,t,
-212,9782409026157,Mantenimiento y reparacion de un PC en red,Yann Bardot,Ingeniería Informática,2020,Español,Ediciones ENI,1,t,
-213,9781405481311,Manual de Cocina,Lioba Waleczek,Cocina,2004,Español,Parragon Books Ltd,1,f,
-214,9788466331340,Maravilloso Error,Jamie McGuire,Novela Romántica y Erótica,2015,Español,Penguin Random House Grupo Editorial,1,t,
-215,9786287688810,The Game Changer Series - Más que Rivales,Rachel Reid,LGTBIQ,2026,Español,Penguin - Montena,1,t,
-216,9781456266639,Matemáticas para Computación I,Seymour Lipschutz,Ingeniería Informática,2019,Español,Mc Graw Hill,2,t,
-217,9781456256272,Matemáticas para Computación II,Seymour Lipschutz,Ingeniería Informática,2017,Español,Mc Graw Hill,1,t,
-218,9789968936705,Matices del patrimonio cultural costarricense,Ligia Carvajal Mena,Relaciones Internacionales,2008,Español,Editorial UCR,1,f,
-219,9789701057537,Metodología de la Investigación - 4ta Edición,"Roberto Hernandez Sampieri, et al",Administración y Negocios,2006,Español,Mc Graw Hill,1,t,
-220,9788416449262,Mi diario de yoga,Xuan-Lan,Salud,,Español,Grijalbo,1,f,
-221,9788466338813,Mi Isla,Elisabet Benavent,Novela Romántica y Erótica,2017,Español,Penguin Random House Grupo Editorial,1,t,
-222,9788413149813,Mistborn - Nacidos de la Bruma,Brandon Sanderson,Fantasía Épica,2025,Español,Penguin Randon House Grupo Editorial,1,f,
-223,Rev-003,Navidad a Toda Hora,Revista Sabores,Cocina,2010,Español,Grupo Nacion,1,f,
-224,7441025505539,Nuestros Mejores 50 Queques,Revista Sabores,Cocina,2010,Español,Grupo Nacion,1,f,
-225,9977649421,Oduber,Joaquin Alberto Fernandez Alfaro,Historia,1997,Español,EUNED,1,f,
-226,9780140623291,Oliver Twist,Charles Dickens,Inglés,1994,Ingles,Penguin Books,1,f,
-227,9788489660823,Organizacion y arquitectura de computadores,Willian Stallings,Ingeniería Informática,2005,Español,Pearson Educacion,1,t,
-228,9977200300,Organizacion y gerencia publica,"Rethenly Figueroa, Carlos Molina O.",Administración y Negocios,1994,Español,Editorial ICAP,1,f,
-229,9789585396449,"Orgullo, prejuicio, tu y yo",Rachael Lippincott,LGTBIQ,2023,Español,Penguin Random House Grupo Editorial,1,f,
-230,,Origenes de los Ramonenses - Familias Fundadoras de San Ramon,Eduardo Fournier Garcia,Genealogía,1994,Español,Museo Historico Cultural Juan Santamaria,1,t,
-231,9788497644532,Otelo,William Shakespeare,Literatura Clásica,2011,Español,EDIMAT Libros,1,t,
-232,9788466377720,Outlander - Cuenta a las abejas que me fui,Diana Gabaldon,Fantasía Épica,2024,Español,Penguin Random House Grupo Editorial,1,f,
-233,9788498387186,Outlander - Forastera,Diana Gabaldon,Fantasía Épica,2017,Español,Publicaciones y Ediciones Salamandra,1,t,
-234,9780593497197,Outlander - Go Tell the Bees That I Am Gone,Diana Gabaldon,Fantasía Épica,2021,Ingles,Penguin Random House Grupo Editorial,1,f,
-235,9789968502214,Pasteles Esponjosos,Wendy Sweetser,Cocina,2011,Español,Ediciones JADINE,1,t,
-236,9781407556987,Platos Unicos,Parragon,Cocina,2008,Español,Parragon Books Ltd,1,t,
-237,9781407585079,Postres,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,
-238,9789509445635,Primero la Gente,"Amartya Sen, Bernardo Kliksberg",Economía,2007,Español,TEMAS Grupo Editorial,1,t,
-239,9789968488532,Principios de Administracion,"Jose E. Gutierrez Duran, Vicente Godoy Sandoval",Administración y Negocios,2020,Español,EUNED,1,t,
-240,9788499429601,Prisioneros de la Geografia,Tim Marshall,Relaciones Internacionales,2021,Español,Ediciones Peninsula,1,f,
-241,,Progenitores de los Costarricenses,Mario Barrantes Ferrero,Genealogía,1973,Español,ACCG,1,t,
-242,9788408286158,Punk 57,Penelope Douglas,Novela Romántica y Erótica,2024,Español,Editorial Planeta,1,f,
-243,9786078712427,Ravensong - La Cancion del Cuervo,TJ Klune,LGTBIQ,2022,Español,VR Editoras,1,f,
-244,9789706273505,Rebelion en la Granja,George Orwell,Ciencia Ficción,,Español,Ediciones Culturales Partenon,1,t,
-245,9788430945535,Relaciones Internacionales,Esther Barbe,Relaciones Internacionales,2008,Español,Editorial Tecnos,1,t,
-246,,Resena Historica de Limon,"Jaime Granados Chacon, Ligia Estrada Molina",Historia,1967,Español,Imprenta Nacional,1,f,
-247,,Revista de la ACCG - Tomo 1,Academia Costarricense de Ciencias Genealogicas,Genealogía,1953,Español,ACCG,1,t,
-248,,Revista de la ACCG - Tomo 13-14,Academia Costarricense de Ciencias Genealogicas,Genealogía,1966,Español,ACCG,1,t,
-249,,Revista de la ACCG - Tomo 16-17,Academia Costarricense de Ciencias Genealogicas,Genealogía,1970,Español,ACCG,1,t,
-250,,Revista de la ACCG - Tomo 18-19-20,Academia Costarricense de Ciencias Genealogicas,Genealogía,1973,Español,ACCG,1,t,
-251,,Revista de la ACCG - Tomo 22,Academia Costarricense de Ciencias Genealogicas,Genealogía,1975,Español,ACCG,1,t,
-252,,Revista de la ACCG - Tomo 23,Academia Costarricense de Ciencias Genealogicas,Genealogía,1976,Español,ACCG,1,t,
-253,,Revista de la ACCG - Tomo 26,Academia Costarricense de Ciencias Genealogicas,Genealogía,1980,Español,ACCG,1,t,
-254,,Revista de la ACCG - Tomo 30-31,Academia Costarricense de Ciencias Genealogicas,Genealogía,1987,Español,ACCG,2,t,
-255,,Revista de la ACCG - Tomo 32,Academia Costarricense de Ciencias Genealogicas,Genealogía,1991,Español,ACCG,1,t,
-256,,Revista de la ACCG - Tomo 33,Academia Costarricense de Ciencias Genealogicas,Genealogía,1992,Español,ACCG,1,t,
-257,,Revista de la ACCG - Tomo 34,Academia Costarricense de Ciencias Genealogicas,Genealogía,1994,Español,ACCG,2,t,
-258,,Revista de la ACCG - Tomo 35,Academia Costarricense de Ciencias Genealogicas,Genealogía,1995,Español,ACCG,1,t,
-259,,Revista de la ACCG - Tomo 36,Academia Costarricense de Ciencias Genealogicas,Genealogía,1998,Español,ACCG,1,t,
-260,,Revista de la ACCG - Tomo 37,Academia Costarricense de Ciencias Genealogicas,Genealogía,2000,Español,ACCG,1,t,
-261,,Revista de la ACCG - Tomo 38,Academia Costarricense de Ciencias Genealogicas,Genealogía,2000,Español,ACCG,1,t,
-262,,Revista de la ACCG - Tomo 39-40,Academia Costarricense de Ciencias Genealogicas,Genealogía,2003,Español,ACCG,1,t,
-263,,Revista de la ACCG - Tomo 41,Academia Costarricense de Ciencias Genealogicas,Genealogía,2004,Español,ACCG,1,t,
-264,,Revista de la ACCG - Tomo 42-43,Academia Costarricense de Ciencias Genealogicas,Genealogía,2008,Español,ACCG,1,t,
-265,,Revista de la ACCG - Tomo 44,Academia Costarricense de Ciencias Genealogicas,Genealogía,2009,Español,ACCG,1,t,
-266,,Revista de la ACCG - Tomo 45,Academia Costarricense de Ciencias Genealogicas,Genealogía,2010,Español,ACCG,1,t,
-267,,Revista de la ACCG - Tomo 49,Academia Costarricense de Ciencias Genealogicas,Genealogía,2013,Español,ACCG,1,t,
-268,,Revista de la ACCG - Tomo 8,Academia Costarricense de Ciencias Genealogicas,Genealogía,1960,Español,ACCG,1,t,
-269,,Revista de la ACCG - Tomo 9,Academia Costarricense de Ciencias Genealogicas,Genealogía,1961,Español,ACCG,1,t,
-270,16590066,Revista Herencia,Universidad de Costa Rica,Historia,1988,Español,Editorial UCR,1,f,
-271,9788496975576,Romeo y Julieta,William Shakespeare,Literatura Clásica,2016,Español,Ediciones Brontes,1,t,
-272,9789977760162,Serie Ivonne Clays - El Canciller Acosta,Julio Ernesto Revollo Acosta,Relaciones Internacionales,2013,Español,Imprenta Nacional,1,f,
-273,9789977760278,Serie Ivonne Clays - El Canciller Montufar,Joaquin Alberto Fernandez Alfaro,Relaciones Internacionales,2014,Español,Imprenta Nacional,1,f,
-274,9789977760100,Serie Ivonne Clays - El Canciller Rodriguez,Jorge Francisco Saenz Carbonell,Relaciones Internacionales,2011,Español,Imprenta Nacional,1,f,
-275,9789977760261,Serie Ivonne Clays - El Canciller Toledo,Emilio Gerardo Obando Cairol,Relaciones Internacionales,2014,Español,Imprenta Nacional,1,f,
-276,9789977760438,Serie Ivonne Clays - El Canciller Venegas,Luis Carlos Serrano Madrigal,Relaciones Internacionales,2017,Español,Imprenta Nacional,1,f,
-277,9789977760230,Serie Ivonne Clays - El General Joaquin Eufrasio Guzman,Jorge Larde y Larin,Relaciones Internacionales,2014,Español,Imprenta Nacional,1,f,
-278,9789977760247,Serie Ivonne Clays - Manuel de Jesus Jimenez Oreamuno,Jorge Umana Vargas,Relaciones Internacionales,2014,Español,Imprenta Nacional,1,f,
-279,9789977760339,Serie Ivonne Clays - Primera Dama Ivonne Clays,Miguel Acuna V.,Relaciones Internacionales,2015,Español,Imprenta Nacional,1,f,
-280,9789977760315,Serie Ivonne Clays - Seis Cancilleres Interinos,"Jorge Francisco Saenz Carbonell, et al.",Relaciones Internacionales,2015,Español,Imprenta Nacional,1,f,
-281,9786074420463,Sistemas Operativos Modernos,Andrew S. Tanenbaum,Ingeniería Informática,2009,Español,Pearson Educacion,1,t,
-282,9789968461160,Sistemas Politicos Contemporaneos,"Cesar A. Zuniga Ramirez, Luis Emilio Jimenez Gonzalez",Relaciones Internacionales,2008,Español,Editorial UCR,1,f,
-283,9780811822307,Smoothies,Sara Corpening,Cocina,1999,Ingles,Chronicle Books,1,f,
-284,9977830665,Somos Parte de un Gran Equilibrio,Ingemar Hedstrom,Economía,1993,Español,Editorial DEI,1,t,
-285,9786071131607,Suenos de Dioses y Monstruos,Laini Taylor,Fantasía Épica,2014,Español,Alfaguardia,1,f,
-286,9781407585079,Sushi,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,
-287,9781335534606,The Game Changer Series - Common Goal,Rachel Reid,LGTBIQ,2024,Ingles,Carina Press - Harlequin,1,f,""
-288,9781335534620,The Game Changer Series - Game Changer,Rachel Reid,LGTBIQ,2024,Ingles,Carina Press - Harlequin,1,t,""
-289,9781335534637,The Game Changer Series - Heated Rivalry,Rachel Reid,LGTBIQ,2024,Ingles,Carina Press - Harlequin,1,t,""
-290,9781335534613,The Game Changer Series - Role Model,Rachel Reid,LGTBIQ,2024,Ingles,Carina Press - Harlequin,1,f,""
-291,9781335534590,The Game Changer Series - Tough Guy,Rachel Reid,LGTBIQ,2024,Ingles,Carina Press - Harlequin,1,f,""
-292,9780374533229,The Origins of Political Order,Francis Fukuyama,Relaciones Internacionales,2011,Ingles,"Farrar, Straus and Giroux",1,t,
-293,7441025507243,Tia Florita - Mis 50 Recetas para Celebrar,Revista Sabores,Cocina,2011,Español,Grupo Nacion,1,f,
-294,9788497645560,Tratado de Pintura,Leonardo da Vinci,Literatura Clásica,2011,Español,EDIMAT Libros,1,f,
-295,9786073143691,Trono de Cristal - Corona de Medianoche,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,
-296,9798890981561,Trono de Cristal - Heredera de Fuego,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,
-297,9798890981585,Trono de Cristal - Imperio de Tormentas,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,
-298,9798890981578,Trono de Cristal - Reina de Sombras,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,
-299,9798890981608,Trono de Cristal - Reino de Cenizas,Sarah J. Mass,Fantasía Épica,2025,Español,Penguin Random Alfaguara,1,t,
-300,9798890981592,Trono de Cristal - Torre del Alba,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,f,
-301,9788990981547,Trono de Cristal - Trono de Cristal,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,
-302,9786077478157,Un Nuevo Mundo Feliz,Ulrich Beck,Economía,2000,Español,Editorial Paidos,1,f,
-303,977930058,Un Siglo de Actividad Electrica en Costa Rica,Joaquin Alberto Fernandez Alfaro,Historia,2000,Español,Instituto Costarricense de Electricidad,1,f,
-304,9788408257127,Una Corte de Alas y Ruina,Sarah J. Mass,Fantasía Épica,2022,Español,Cross books,1,t,
-305,9788408257134,Una Corte de Hielo y Estrellas,Sarah J. Mass,Fantasía Épica,2022,Español,Cross books,1,t,
-306,9788408249429,Una Corte de Llamas Plateadas,Sarah J. Mass,Fantasía Épica,2021,Español,Cross books,1,t,
-307,9788408257110,Una Corte de Niebla y Furia,Sarah J. Mass,Fantasía Épica,2022,Español,Cross books,1,t,
-308,9788408257103,Una Corte de Rosas y Espinas,Sarah J. Mass,Fantasía Épica,2022,Español,Cross books,1,t,
-309,9788466343220,Una Odisea Espacial,Arthur C. Clarke,Fantasía Épica,2024,Español,Penguin Randon House Grupo Editorial,1,f,
-310,9788495994394,Utopia,Tomas Moro,Filosofía,2009,Español,Mestas Ediciones,1,t,
-311,9977953333,Walker en Centro America,Lorenzo Montufar,Historia,2000,Español,Museo Historico Cultural Juan Santamaria,1,f,
-312,9780811833363,Webers - Art of the Grill Deck,Weber,Cocina,2002,Ingles,Weber-Stephen Products Co.,1,f,
-313,9788412450811,Wine Folly - La Guia Maestra,"Madeline Puckette, Justin Hammack",Cocina,2025,Español,ColAndCol,1,f,
-314,9786078614455,Wolfsong - La Cancion del Lobo,TJ Klune,LGTBIQ,2024,Español,VR Editoras,1,f,
-315,9788433910912,Yo amo a mi mami,Jaime Bayly,Literatura Latinoamericana,1999,Español,Editorial Anagrama,1,f,""
-316,9788488190330,Aceites Esenciales,Gill Farrer-Halls,Ciencia,2019,Español,Blume,1,f,
-317,9788410050105,Legacy of Gods - (I) God of Malice,Rina Kent,Novela Romántica y Erótica,2024,Español,Montena - Penguin Random House Grupo Editorial,1,t,
-318,9791387724429,Legacy of Gods - (IV) God of Ruin,Rina Kent,Novela Romántica y Erótica,2025,Español,Montena - Penguin Random House Grupo Editorial,1,t,
-319,9788445076538,Crónicas Marcianas,Ray Bradbury,Ciencia Ficción,2024,Español,Editorial Planeta,1,f,
-320,9788419599339,Mitos + Leyendas Antiguo Egipto,Nuria Castellano I Sole,Historia,2023,Español,Editorial Alma,1,f,
-321,9788410298231,Legacy of Gods - (III) God of Wrath,Rina Kent,Novela Romántica y Erótica,2025,Español,Montena - Penguin Random House Grupo Editorial,1,t,
-322,9788466380621,Fahrenheit 451,Ray Bradbury,Ciencia Ficción,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,
-323,9788497594257,Un mundo feliz,Aldous Huxley,Ciencia Ficción,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,
-324,9788419599841,Mitos + Leyendas Celtas,Laia San Jose Beltran,Historia,2024,Español,Editorial Alma ,1,f,
-325,9788410395763,Legacy of Gods - (II) God of Pain,Rina Kent,Novela Romántica y Erótica,2025,Español,Montena - Penguin Random House Grupo Editorial,1,t,
-326,9791387711443,Los Habitantes del Aire - El Principe Cruel,Holly Black,Fantasía Épica,2025,Español,Editorial Hidra,2,f,Una copia está suelta de forma individual y la otra está en Estuche de Edición Especial
-327,9786070772658,¿Sueñan los Androides con Ovejas Eléctricas?,Philip K. Dick,Ciencia Ficción,2025,Español,Minotauro - Editorial Planeta Mexicana,1,f,
-328,9788410197428,El Priorato del Naranjo,Samantha Shannon,Fantasía Épica,2026,Español,Rocabolsillo - Penguin Random House Grupo Editorial,1,f,
-329,9781335534644,The Game Changer Series - The Long Game,Rachel Reid,LGTBIQ,2024,Inglés,Carina Press - Harlequin,1,f,""
-330,9788420653419,Almas Muertas,Nikolai Gogol,Literatura Clásica,2024,Español,Alianza Editorial,1,f,""
-331,9789585118409,Cadáver Exquisito,Agustina Bazterrica,Ciencia Ficción,2026,Español,Alfaguara - Penguin Random House Grupo Editorial,1,f,
-332,9788497931274,Saga Fundación - 1 - Preludio a la Fundación,Isaac Asimov,Ciencia Ficción,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,""
-333,9786076372234,Santo,Sierra Simone,LGTBIQ,2025,Español,VR Editoras,1,f,
-334,9781464251801,Villain - (1) Kiss the Villain,Rina Kent,LGTBIQ,2025,Ingles,Bloom Books,1,t,""
-335,9781464279256,Villain - (2) Hunt the Villain,Rina Kent,LGTBIQ,2026,Ingles,Bloom Books,1,t,""
-336,9781464245640,Vipers - (III) Tempting Venom,Rina Kent,LGTBIQ,2026,Ingles,Bloom Books,1,f,
-337,9786073874250,The Game Changer - Cambiar el Juego,Rachel Reid,LGTBIQ,2026,Español,Montena - Penguin Random House Grupo Editorial,1,f,
-338,9791387810733,Por los Fans,Nyla K.,LGTBIQ,2025,Español,Contraluz Editorial,1,f,
-339,9788410425125,Top Secret,Sarina Bowen y Ellen Kennedy,LGTBIQ,2025,Español,Wonderbooks,1,f,
-340,9788418933288,El Arte de la Guerra,Sun Tzu,Filosofía,2022,Español,Alma Editorial,1,f,
-341,9788419599674,Rebelión en la Granja,George Orwell,Ciencia Ficción,2024,Español,Alma Editorial,1,f,""
-342,9788419599681,1984,George Orwell,Ciencia Ficción,2024,Español,Alma Editorial,1,f,
-343,9788417430719,Orgullo y Prejuicio,Jane Austen,Literatura Clásica,2019,Español,Alma Editorial,1,f,
-344,9788418008535,Cumbres Borrascosas,Emily Bronte,Literatura Clásica,2020,Español,Alma Editorial,1,f,
-345,9788419599711,Meditaciones,Marco Aurelio,Filosofía,2024,Español,Alma Editorial,1,f,
-346,9788426431301,Tan Poca Vida,Hanya Yanagihara,Español,2025,Español,Lumen - Penguin Random House Grupo Editorial,1,f,
-347,9788490628720,Ensayo Sobre la Ceguera,José Saramago,Español,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,
-348,9788490628768,Ensayo Sobre la Lucidez,José Saramago,Español,2025,Español,"",1,f,
-349,9788466380812,La Casa de los Espíritus,Isabel Allende,Literatura Latinoamericana,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,
-350,9788490709870,Todos Nuestros Veranos,Carley Fortune,Novela Romántica y Erótica,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,
-351,9788408289739,Cazadores de Sombras - Ciudad de Hueso,Cassandra Clare,Fantasía Épica,2024,Español,Planeta S.A.,1,f,
-352,9788408319986,Dioses del Juego - The Striker Los Opuestos de Atraen,Ana Huang,Novela Romántica y Erótica,2026,Español,Grupo Planeta,1,f,
-353,9788410050075,Alchemised - No Queda Nadie a Quien Salvar,SenLin Yu,Fantasía Épica,2025,Español,Penguin Random House Grupo Editorial,1,f,
-354,9791387711450,Los Habitantes del Aire - El Rey Malvado,Holly Black,Fantasía Épica,2025,Español,Hidra,1,f,
-355,9791387711467,Los Habitantes del Aire - La Reina de Nada,Holly Black,Fantasía Épica,2025,Español,Hidra,1,f,
+id_libro,isbn,titulo,autor,categoria,anio_publicacion,idioma,editorial,unidades,leido,notas,portada_url
+1,9786073198912,¡Salvese quien pueda!,Andres Oppenheimer,Economía,2025,Español,Penguin Randon House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/14250033-L.jpg
+2,"",¿Democracia en Costa Rica? 5 Opiniones Polémicas,"Chester Zelaya, Oscar Aguilar Bulgarelli, Daniel Camacho, Rodolfo Cerdas, Jacobo Schifter",Relaciones Internacionales,1978,Español,EUNED,1,f,,
+3,9788413148984,¿Quién Domina el Mundo?,Noam Chomsky,Relaciones Internacionales,2024,Español,Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/7881439-L.jpg
+4,9781592235926,101 Fantastic Low Carb Recipes,Nicola Graimes,Cocina,2006,Ingles,Thunder Bay Press,1,f,,https://covers.openlibrary.org/b/id/1978960-L.jpg
+5,9789977679662,11 de Setiembre del 2001 - Cambios y Retos,Nuria Marin Raventos,Relaciones Internacionales,2008,Español,Editorial UCR,1,f,,
+6,9977830371,"1492-1992, La Interminable Conquista","Gioconda Belli, et al",Historia,1991,Español,Editorial DEI,1,f,,https://covers.openlibrary.org/b/id/12651576-L.jpg
+7,9789807716147,1984,George Orwell,Ciencia Ficción,,Español,lucemar,1,t,,https://covers.openlibrary.org/b/id/8745958-L.jpg
+8,Rev-001,50 Recetas Fáciles y Económicas,Revista Sabores,Cocina,2004,Español,Grupo Nacion,1,f,,
+9,9788419621184,Al otro lado,Mike Lightwood,LGTBIQ,2023,Español,Ediciones SM,1,f,,
+10,9788408284550,Alas de Hierro,Rebecca Yarros,Fantasía Épica,2024,Español,Editorial Planeta Mexicana,1,t,,https://covers.openlibrary.org/b/id/15227498-L.jpg
+11,9786073923163,Alas de Onix,Rebecca Yarros,Fantasía Épica,2025,Español,Editorial Planeta Mexicana,1,t,,https://covers.openlibrary.org/b/id/14826089-L.jpg
+12,9788408279990,Alas de Sangre,Rebecca Yarros,Fantasía Épica,2023,Español,Editorial Planeta Mexicana,1,t,,https://covers.openlibrary.org/b/id/15227502-L.jpg
+13,9788415618713,Alicia en el País de las Maravillas,Lewis Carroll,Español,2017,Español,Anders Producciones S.L,1,f,,https://covers.openlibrary.org/b/id/10527843-L.jpg
+14,,Alma Infantil,Jose Maria Zeledon,Literatura Costarricense,1928,Español,Imprenta Lehmann,1,t,,
+15,9789977652818,América Latina - Crisis del Estado Clientelista y la Construcción de Repúblicas Ciudadanas,"Miguel Sobrado, Juan Jose Rojas",Relaciones Internacionales,2006,Español,EUNA,1,t,,
+16,9788426133977,Anna Karenina,Leon Tolstoi,Literatura Clásica,2012,Español,Editorial Juventud,1,f,,https://covers.openlibrary.org/b/id/2560652-L.jpg
+17,9789871093670,Apología de Socrates,Platón,Filosofía,2007,Español,Gradifco,1,f,,https://covers.openlibrary.org/b/id/12333537-L.jpg
+18,9788418385680,Arsene Lupin - Caballero Ladron,Maurice Leblanc,Literatura Clásica,2022,Español,Editorial Alma,1,f,,https://covers.openlibrary.org/b/id/13499634-L.jpg
+19,9788419252883,Asesino de Brujas,Shelby Mahurin,Fantasía Épica,2024,Español,Urano World Spain,1,f,,https://covers.openlibrary.org/b/id/10464850-L.jpg
+20,9786078828920,Autoboyography,Christina Lauren,LGTBIQ,2024,Español,VR Editoras,1,f,,https://covers.openlibrary.org/b/id/12354361-L.jpg
+21,9788410399044,Black Bird Academy - Amor a la Muerte,Stella Tack,Fantasía Épica,2025,Español,Editorial Inlov,1,t,,https://covers.openlibrary.org/b/id/15209682-L.jpg
+22,9788410399013,Black Bird Academy - Muerte a la Oscuridad,Stella Tack,Fantasía Épica,2024,Español,Editorial Inlov,1,t,,https://covers.openlibrary.org/b/id/15114458-L.jpg
+23,9788410399037,Black Bird Academy - Temor a la Luz,Stella Tack,Fantasía Épica,2025,Español,Editorial Inlov,1,t,,https://covers.openlibrary.org/b/id/15209679-L.jpg
+24,9781728206141,Boyfriend Material,Alexis Hall,LGTBIQ,2020,Ingles,Sourcebooks casablanca,1,t,,https://covers.openlibrary.org/b/id/10148547-L.jpg
+25,9788499926551,Brasil - Una Biografía,"Lillia M. Schwarcz, Heloisa M. Starling",Relaciones Internacionales,2016,Español,Penguin Random House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/7441610-L.jpg
+26,9788419467430,Bravas y Soju,Victor Guez,LGTBIQ,2023,Español,Editorial de Nuevo Extremo S.L,1,t,,
+27,9789681649890,Breve Historia Contemporánea de Costa Rica,Hector Perez Brignoli,Historia,2002,Español,Fondo de Cultura Economica,1,t,,
+28,9786078828050,Brothersong - La Canción de los Hermanos,TJ Klune,LGTBIQ,2023,Español,VR Editoras,1,f,,https://covers.openlibrary.org/b/id/14647399-L.jpg
+29,9780061561610,"Capitalism, Socialism and Democracy",Joseph A. Schumpeter,Relaciones Internacionales,2008,Español,HarperCollins,1,f,,https://covers.openlibrary.org/b/id/7148115-L.jpg
+30,,Celebridades,Carmina Verdejo,Historia,1972,Español,Editorial Ramon Sopena,1,f,,
+31,9788466341127,Charles Street N.44,Danielle Steel,Novela Romántica y Erótica,2017,Español,Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/8064173-L.jpg
+32,9788416858354,Chico Conoce a Chico,David Levithan,LGTBIQ,2018,Español,Nocturna Ediciones,1,t,,https://covers.openlibrary.org/b/id/11108686-L.jpg
+33,9788408003939,Chomsky Esencial,Noam Chomsky,Relaciones Internacionales,2022,Español,Editorial Planeta,1,f,,https://covers.openlibrary.org/b/id/8260443-L.jpg
+34,9786073108409,Choque de Reyes - Cancion de Hielo y Fuego II,George R.R. Martin,Fantasía Épica,2012,Español,Random House Mondadori,1,f,,https://covers.openlibrary.org/b/id/8231751-L.jpg
+35,9788410190443,Ciudad Medialuna - Casa de Cielo y Aliento,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,,
+36,9788410190603,Ciudad Medialuna - Casa de Llama y Sombra,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,,
+37,9788410190108,Ciudad Medialuna - Casa de Tierra y Sangre,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,,https://covers.openlibrary.org/b/id/9289603-L.jpg
+38,Rev-002,Cocina Costarricense,Revista Sabores,Cocina,2003,Español,Grupo Nacion,1,f,,
+39,9781407584980,Cocina Español,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,,
+40,9781407585055,Cocina Italiana,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,,
+41,9781407584959,Cocina Méxicana,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,,
+42,9781407585000,Cocina Turca,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,,
+43,9789968519038,Cocori,Joaquin Gutierrez,Literatura Costarricense,2019,Español,Editorial Legado,1,t,,https://covers.openlibrary.org/b/id/10962655-L.jpg
+44,"",Colección Norberto Castro - Tomo 1,Academia Costarricense de Ciencias Genealogicas,Genealogía,1975,Español,ACCG,1,t,,
+45,"",Colección Norberto Castro - Tomo 2,Academia Costarricense de Ciencias Genealogicas,Genealogía,1976,Español,ACCG,1,t,,
+46,"",Colección Norberto Castro - Tomo 3,Academia Costarricense de Ciencias Genealogicas,Genealogía,1978,Español,ACCG,1,t,,
+47,"",Colección Norberto Castro - Tomo 4,Academia Costarricense de Ciencias Genealogicas,Genealogía,1981,Español,ACCG,1,t,,
+48,"",Colección Norberto Castro - Tomo 5,Academia Costarricense de Ciencias Genealogicas,Genealogía,1983,Español,ACCG,2,t,,
+49,"",Colección Norberto Castro - Tomo 6,Academia Costarricense de Ciencias Genealogicas,Genealogía,1988,Español,ACCG,1,t,,
+50,"",Colección Norberto Castro - Tomo 7,Academia Costarricense de Ciencias Genealogicas,Genealogía,1992,Español,ACCG,1,t,,
+51,9788466330343,"Come, Reza, Ama",Elizabeth Gilbert,Novela Romántica y Erótica,2016,Español,Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/111433-L.jpg
+52,9789968311472,Comercio Internacional,Rodolfo Tacsan Chen,Economía,2007,Español,EUNED,1,t,,
+53,9789968590013,Comunicacion Escrita,Ethel Pazos Jimenez,Administración y Negocios,2009,Español,Editorial Secade,1,t,,
+54,9788491040255,Confesiones de una Máscara,Mishima,LGTBIQ,2017,Español,Alianza Editorial,1,f,,https://covers.openlibrary.org/b/id/10519140-L.jpg
+55,"",Costa Rica - Su evolución geológica esta en el fondo del mar,Victor Cortes,Historia,,Español,Editorial Guayacan,1,f,,
+56,9789968313506,Costa Rica y sus Hechos Políticos de 1948,Oscar Aguilar Bulgarelli,Historia,2004,Español,EUNED,1,t,,https://covers.openlibrary.org/b/id/7280226-L.jpg
+57,"",Crónicas Coloniales,Ricardo Fernandez Guardia,Historia,1967,Español,Editorial Costa Rica,1,f,,https://covers.openlibrary.org/b/id/14876915-L.jpg
+58,9788497643702,Cuaderno de Notas,Leonardo da Vinci,Literatura Clásica,2010,Español,EDIMAT Libros,1,f,,https://covers.openlibrary.org/b/id/3335172-L.jpg
+59,9788419939531,Cuando Haru estuvo aquí,Dustin Thao,LGTBIQ,2024,Español,Ediciones Kiwi S.L,1,f,,
+60,0009707800814,Cuentos Chinos,Andres Oppenheimer,Relaciones Internacionales,2011,Español,Random House Mondadori,1,t,,https://covers.openlibrary.org/b/id/168143-L.jpg
+61,9788410206809,Cuentos Imprescindibles del Siglo XX de América Latina,"Daniel Centeno Maldonado, Carlos Sandoval",Literatura Latinoamericana,2025,Español,Editorial Alma,2,f,,
+62,9788497643665,De la Tierra a la Luna,Julio Verne,Ciencia Ficción,2009,Español,EDIMAT Libros,1,t,,https://covers.openlibrary.org/b/id/5943556-L.jpg
+63,,De nuestra historia patria los primeros dias de independencia,Rafael Obregon Loria,Historia,1971,Español,Editorial UCR,1,f,,
+64,9788417854317,De Sangre y Cenizas,Jennifer L. Armentrout,Fantasía Épica,2024,Español,Urano World Spain,1,f,,https://covers.openlibrary.org/b/id/12528316-L.jpg
+65,"",Democracia y Participación Política,Ruben Hernandez Valle,Relaciones Internacionales,1991,Español,Editorial Juricentro,1,t,,
+66,9786071125255,Días de Sangre y Resplandor,Laini Taylor,Fantasía Épica,2012,Español,Alfaguardia,1,f,,https://covers.openlibrary.org/b/id/7243752-L.jpg
+67,9788427201187,Divergente,Veronica Roth,Ciencia Ficción,2014,Español,RVA Libros,1,f,,https://covers.openlibrary.org/b/id/13274634-L.jpg
+68,9780140623390,Dracula,Bram Stoker,Inglés,1994,Ingles,Penguin Books,1,f,,https://covers.openlibrary.org/b/id/12216503-L.jpg
+69,9788416365876,Drácula,Bram Stoker,Español,2024,Español,Mestas Ediciones,1,f,,https://covers.openlibrary.org/b/id/12216503-L.jpg
+70,9789706868411,Economía en el Trópico,"Edgar A. Robles, Gilberto E. Arce, Eduardo Lizano",Economía,2008,Español,Thomson,1,t,,
+71,9788484455646,El Arte de la Fermentación,Sandor Ellix Katz,Cocina,2024,Español,Gaia Ediciones,1,f,,https://covers.openlibrary.org/b/id/9303498-L.jpg
+72,9788493806156,El Arte de la Guerra,Sun Tzu,Filosofía,2017,Español,Pluton Ediciones,1,t,,https://covers.openlibrary.org/b/id/4849549-L.jpg
+73,9789871093274,El Banquete - Critón,Platón,Filosofía,2007,Español,Gradifco,1,t,,https://covers.openlibrary.org/b/id/12330845-L.jpg
+74,9788410121218,El Camino Estoíco,Epicteto,Filosofía,2025,Español,Editorial Reverte,1,f,,https://covers.openlibrary.org/b/id/15157258-L.jpg
+75,9788497647984,El Cantar de Mio Cid,Anonimo,Literatura Clásica,2010,Español,EDIMAT Libros,1,f,,https://covers.openlibrary.org/b/id/4910995-L.jpg
+76,9789968483087,El Cíclo Contable,Alexandra Gomez Hernandez,Administración y Negocios,2020,Español,EUNED,1,f,,
+77,9789681505189,El Contrato Social,Juan Jacobo Rousseau,Relaciones Internacionales,2005,Español,Editores Mexicanos Unidos,1,t,,https://covers.openlibrary.org/b/id/6581958-L.jpg
+78,9789968314886,El cuarto viaje de Cristobal Colon y origenes de la provincia de Costa Rica,Luis Fernando Sibaja,Historia,2006,Español,EUNED,1,f,,
+79,9788410197077,El Dragón Blanco,Anne McCaffrey,Fantasía Épica,2024,Español,Penguin Randon House Grupo Editorial,1,f,,
+80,9788441421325,El Enigma Nazi,"Jose Lesta, Miguel Pedrero",Relaciones Internacionales,2009,Español,EDAF,1,t,,https://covers.openlibrary.org/b/id/13615258-L.jpg
+81,,El Existencialismo es un Humanismo,Hernan R. Mora Calvo,Filosofía,1997,Español,Editorial Guayacan,1,f,,
+82,9788416620197,El Fuego en el que Ardo,Mike Lightwood,LGTBIQ,2016,Español,Plataforma Editorial,1,f,,https://covers.openlibrary.org/b/id/7425160-L.jpg
+83,9788419030825,El Heredero Oscuro,C.S. Pacat,LGTBIQ,2024,Español,UMBRIEL,1,t,,
+84,9788417002046,El Hielo de mis Venas,Mike Lightwood,LGTBIQ,2017,Español,Plataforma Editorial,1,f,,https://covers.openlibrary.org/b/id/8099968-L.jpg
+85,9788491297932,El Hijo del Tiempo,Deborah Harkness,Fantasía Épica,2022,Español,Penguin Randon House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/13011974-L.jpg
+86,9788445000656,El Hobbit,J.R.R. Tolkien,Español,2012,Español,Editorial Planeta Mexicana,1,t,,https://covers.openlibrary.org/b/id/14627509-L.jpg
+87,9788408050322,El Huracan Lleva tu Nombre,Jaime Bayly,LGTBIQ,2004,Español,Planeta,1,f,,https://covers.openlibrary.org/b/id/1046629-L.jpg
+88,9788412779868,El Laboratorio Palestino,Antony Loewenstein,Relaciones Internacionales,2024,Español,Capitan Swing,1,f,,https://covers.openlibrary.org/b/id/14623906-L.jpg
+89,9788420674292,El Lobo Estepario,Hermann Hesse,Español,2016,Español,Alianza Editorial,1,f,,https://covers.openlibrary.org/b/id/3221083-L.jpg
+90,9789876284783,El Maestro Ignorante,Jacques Ranciere,Español,2018,Español,edhasa,1,f,,https://covers.openlibrary.org/b/id/12334196-L.jpg
+91,9788497644617,El Mercader de Venecia,William Shakespeare,Literatura Clásica,2010,Español,EDIMAT Libros,1,t,,https://covers.openlibrary.org/b/id/7182819-L.jpg
+92,9788466344180,El Metodo Ikigai,"Hector Garcia, Francesc Miralles",Administración y Negocios,2023,Español,Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/11300391-L.jpg
+93,9789977237602,El Negro en Costa Rica,"Quince Duncan, Carlos Melendez",Historia,2005,Español,Editorial Costa Rica,1,t,,
+94,9788419468024,El Niño con el Pijama de Rayas,John Boyne,Español,2023,Español,Penguin Random House Grupo Editorial,1,f,,
+95,9788466354028,El Nombre del Viento,Patrick Rothfuss,Fantasía Épica,2024,Español,Penguin Randon House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/11480483-L.jpg
+96,9789681513030,El Principe,Nicolas Maquiavelo,Relaciones Internacionales,2008,Español,Editores Mexicanos Unidos,1,t,,https://covers.openlibrary.org/b/id/12328579-L.jpg
+97,9788410085220,El Principe Cautivo - El Esclavo,C.S. Pacat,LGTBIQ,2024,Español,UMBRIEL,1,t,,
+98,9788410085244,El Principe Cautivo - El Guerrero,C.S. Pacat,LGTBIQ,2024,Español,UMBRIEL,1,t,,
+99,9788410085305,El Principe Cautivo - El Rey,C.S. Pacat,LGTBIQ,2024,Español,UMBRIEL,1,t,,
+100,9788467738674,El Principito,Antoine de Saint-Exupery,Español,,Español,Ediciones Jadine,1,t,,https://covers.openlibrary.org/b/id/13499066-L.jpg
+101,9782070408504,Le Petit Prince,Antoine de Saint-Exupery,Francés,2020,Frances,Editions Gallimard,1,t,,https://covers.openlibrary.org/b/id/10708272-L.jpg
+102,9788498381498,El Principito,Antoine de Saint-Exupery,Español,2021,Español,Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/10708272-L.jpg
+103,9788461418602,El Retrato de Dorian Gray,Oscar Wilde,Español,2010,Español,EDAF,1,f,,https://covers.openlibrary.org/b/id/8061086-L.jpg
+104,9788416517756,El Rey Oscuro,C.S. Pacat,LGTBIQ,2022,Español,UMBRIEL,1,t,,https://covers.openlibrary.org/b/id/12947529-L.jpg
+105,9788479536442,El Secreto,Rhonda Byne,Salud,2006,Español,Ediciones Urano,1,f,,https://covers.openlibrary.org/b/id/15160670-L.jpg
+106,9788420674179,El Señor de las Moscas,Willian Golding,Español,2017,Español,Alianza Editorial,1,t,,https://covers.openlibrary.org/b/id/8684447-L.jpg
+107,9788497644693,El Sueño de una Noche de Verano,William Shakespeare,Literatura Clásica,2010,Español,EDIMAT Libros,1,t,,https://covers.openlibrary.org/b/id/7205924-L.jpg
+108,9788466378307,El Temor de un Hombre Sabio,Patrick Rothfuss,Fantasía Épica,2025,Español,Penguin Randon House Grupo Editorial,1,f,,
+109,9788410197022,El Vuelo del Dragón,Anne McCaffrey,Fantasía Épica,2024,Español,Penguin Randon House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/10306696-L.jpg
+110,9789968482400,Elementos de Estadística Descriptiva,Miguel Gomez Barrantes,Administración y Negocios,2021,Español,EUNED,1,t,,
+111,9788495311740,Elogio de la Locura,Erasmo de Rotterdam,Filosofía,2009,Español,Mestas Ediciones,1,t,,https://covers.openlibrary.org/b/id/5834592-L.jpg
+112,9788497644785,Eneida,Virgilio,Literatura Clásica,2010,Español,EDIMAT Libros,1,f,,https://covers.openlibrary.org/b/id/5273998-L.jpg
+113,9789871093618,Ensayo Sobre el Gobierno Civil,John Locke,Relaciones Internacionales,2007,Español,Gradifco,1,t,,https://covers.openlibrary.org/b/id/8084088-L.jpg
+114,9789968313421,Estado de Bienestar - Crisis Económica y Ajuste Estructural en Costa Rica,Rafael A. Sanchez Sanchez,Economía,2004,Español,EUNED,1,t,,
+115,9788484456810,Este dolor no es mío,Mark Wolynn,Salud,2016,Español,Gaia Ediciones,1,f,,https://covers.openlibrary.org/b/id/8849786-L.jpg
+116,,Esteban Lorenzo de Tristan - Fundador de Alajuela,Ricardo Blanco Segura,Genealogía,1983,Español,Museo Historico Cultural Juan Santamaria,1,t,,https://covers.openlibrary.org/b/id/7120347-L.jpg
+117,9789587789003,"Estructura de Datos - Un enfoque con Python, Java y C++","Enrique Gomez Jimenez, Percy Canipa Valdez",Ingeniería Informática,2023,Español,Alpha Editorial,2,t,,
+118,9788415552222,Estructura de Datos en Java - 4ta Edición,Mark Allen Weiss,Ingeniería Informática,2013,Español,Pearson Educacion,2,t,,https://covers.openlibrary.org/b/id/13642967-L.jpg
+119,9788495311658,Ética a Nicomaco,Aristoteles,Filosofía,2010,Español,Mestas Ediciones,1,t,,https://covers.openlibrary.org/b/id/2272696-L.jpg
+120,"",Ética y Política,Roberto Canas,Relaciones Internacionales,2019,Español,EUNED,1,t,,
+121,9977953155,Familias Alajuelenses en los Libros Parroquiales - Tomo 1,Rafael Obregon Loria,Genealogía,1993,Español,Museo Historico Cultural Juan Santamaria,1,t,,https://covers.openlibrary.org/b/id/3905765-L.jpg
+122,,Familias Alajuelenses en los Libros Parroquiales - Tomo 2,Rafael Obregon Loria,Genealogía,1995,Español,Museo Historico Cultural Juan Santamaria,1,t,,
+123,,Familias Alajuelenses en los Libros Parroquiales - Tomo 3,Rafael Obregon Loria,Genealogía,1995,Español,Museo Historico Cultural Juan Santamaria,1,t,,
+124,,Familias Alajuelenses en los Libros Parroquiales - Tomo 4,Rafael Obregon Loria,Genealogía,1996,Español,Museo Historico Cultural Juan Santamaria,1,t,,
+125,,Familias Alajuelenses en los Libros Parroquiales - Tomo 5,Rafael Obregon Loria,Genealogía,1997,Español,Museo Historico Cultural Juan Santamaria,1,t,,
+126,,Familias Alajuelenses en los Libros Parroquiales - Tomo 7,Rafael Obregon Loria,Genealogía,,Español,Museo Historico Cultural Juan Santamaria,1,t,,
+127,978997202159,Fiestas y Cocteles,Cocina Creativa,Cocina,2007,Español,Empresa Editora El Comercio S.A.,1,f,,
+128,9780140623321,Frankenstein,Mary Shelley,Inglés,1994,Ingles,Penguin Books,1,f,,https://covers.openlibrary.org/b/id/12356249-L.jpg
+129,9788492892631,Frankenstein,Mary Shelley,Literatura Clásica,2022,Español,Mestas Ediciones,1,f,,https://covers.openlibrary.org/b/id/12356249-L.jpg
+130,9789968530020,Frecuentes Errores,Ethel Pazos Jimenez,Administración y Negocios,2009,Español,Editorial Secade,1,t,,
+131,9788448190330,Fundamentos de Bases de Datos,"Avi Silberschatz, Hank Korth, S. Sudarshan",Ingeniería Informática,2014,Español,Mc Graw Hill,1,t,,https://covers.openlibrary.org/b/id/10486833-L.jpg
+132,9789968936682,Geopolítica y Conflicto en el Caucaso,"Antonio Barrios Oviedo, Maria Laura Arce Saldias",Relaciones Internacionales,2008,Español,Editorial UCR,1,t,,
+133,9789968489263,Globalización y Ambiente,Alex Cambronero Esquivel,Economía,2021,Español,EUNED,1,t,,
+134,9791387724580,Legacy of Gods - (V) God of Fury ,Rina Kent,LGTBIQ,2026,Español,Montena - Penguin Random House Grupo Editorial ,1,t,,
+135,9786074441093,Golosinas,El Mundo de la Reposteria,Cocina,2010,Español,Unimago S.A.,1,f,,
+136,9788441322783,Gran Historia Universal - Epoca Helenística,S.d.,Historia,2006,Español,Folio,1,f,,
+137,9780140623642,Gullivers Travels,Jonathan Swift,Inglés,1994,Ingles,Penguin Books,1,f,,https://covers.openlibrary.org/b/id/12717083-L.jpg
+138,9786075691251,Hábitos Atómicos,James Clear,Salud,2018,Español,Editorial Planeta - Paidos,1,t,,
+139,9789968936699,Hacia una pedagogía del encuentro cultural,"Maria del Carmen Araya Jimenez, Sergio Villena Fiengo",Relaciones Internacionales,2008,Español,Editorial UCR,1,f,,
+140,9788498387568,Harry Potter y el Legado Maldito,Jack Thorne,Español,2016,Español,Publicaciones y Ediciones Salamandra,1,t,,https://covers.openlibrary.org/b/id/8763851-L.jpg
+141,9788498382662,Harry Potter y la Piedra Filosofal,J.K. Rowling,Español,1999,Español,Publicaciones y Ediciones Salamandra,1,f,,https://covers.openlibrary.org/b/id/15155833-L.jpg
+142,9786078712287,Heartsong - La Canción del Corazón,TJ Klune,LGTBIQ,2024,Español,VR Editoras,1,f,,
+143,9786074044454,Helados y Nieves,Anne McRae,Cocina,2011,Español,Degustis,1,t,,
+144,9788420410982,Hija de Humo y Hueso,Laini Taylor,Fantasía Épica,2011,Español,Alfaguardia,1,t,,https://covers.openlibrary.org/b/id/7064457-L.jpg
+145,9789968319331,História de la Cultura,"David Diaz Arias, et al.",Historia,2020,Español,EUNED,1,t,,
+146,9977310661,Historia Diplomática de Costa Rica,Jorge Francisco Saenz Carbonell,Relaciones Internacionales,1995,Español,Editorial Juricentro,1,f,,
+147,9788497943970,"Humanismo, Demasiado Humano",Friedrich Nietzsche,Filosofía,2018,Español,EDIMAT Libros,1,f,,https://covers.openlibrary.org/b/id/14083526-L.jpg
+148,9781728250922,Husband Material,Alexis Hall,LGTBIQ,2022,Ingles,Sourcebooks casablanca,1,t,,https://covers.openlibrary.org/b/id/12231601-L.jpg
+149,9788497644907,Iliada,Homero,Literatura Clásica,2010,Español,EDIMAT Libros,1,f,,https://covers.openlibrary.org/b/id/7083790-L.jpg
+150,9968834990,Impúdicas Pasiones,Julian A. Garnier,LGTBIQ,2011,Español,Ediciones Perro Azul,1,t,,
+151,9788466330367,Inevitable Desastre,Jamie McGuire,Novela Romántica y Erótica,2017,Español,Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/12334453-L.jpg
+152,9789587780444,Ingeniería de Software,"Guillermo Pantaleo, Ludmila Rinaudo",Ingeniería Informática,2015,Español,Alfaomega Grupo Editor,2,t,,
+153,9789587785418,Inteligencia de Negocios y Analítica de Datos,Luis Joyanes Aguilar,Ingeniería Informática,2019,Español,Alfaomega Grupo Editor,1,t,,https://covers.openlibrary.org/b/id/14148331-L.jpg
+154,9786071520296,Introducción a la Investigación de Operaciones,"Frederick S. Hillier, Gerald J. Lieberman",Ingeniería Informática,2023,Español,Mc Graw Hill,2,t,,https://covers.openlibrary.org/b/id/8075906-L.jpg
+155,9786074421118,Introducción a la Programación con C++,"Harvey M. Deitel, Paul J. Deitel",Ingeniería Informática,2009,Español,Pearson Educacion,1,t,,
+156,9977200351,Inversión Pública y Desarrollo Humano,ICAP,Administración y Negocios,1996,Español,Editorial ICAP,1,f,,https://covers.openlibrary.org/b/id/3775220-L.jpg
+157,9788423426058,Inversores y Mercados,William F. Sharpe,Economía,2008,Español,Ediciones Deusto,1,f,,
+158,9789977679327,Irak - Pasado y presente de un país atormentado,Luis Guillermo Solis Rivera,Relaciones Internacionales,2008,Español,Editorial UCR,1,t,,
+159,9788427040090,Kama-Sutra Gay,Alicia Gallotti,LGTBIQ,2003,Español,Ediciones Planeta Madrid,1,t,,https://covers.openlibrary.org/b/id/7274848-L.jpg
+160,,La Biblia,S.d.,Español,1979,Español,Sociedades Biblicas Unidas,1,t,,
+161,9788410197084,La Busqueda del Dragon,Anne McCaffrey,Fantasía Épica,2024,Español,Penguin Randon House Grupo Editorial,1,f,,
+162,9788411485166,La Canción de Aquiles,Madeline Miller,LGTBIQ,2023,Español,AdN Alianza de Novelas,1,f,,
+163,9789977651897,La Ciudad de los Monos,Ivan Molina Jimenez,Literatura Costarricense,2008,Español,Editorial UCR,1,t,,https://covers.openlibrary.org/b/id/5261970-L.jpg
+164,848238032X,La Cocina de Hoy - Las Salsas,La Revista Gran Clase,Cocina,1997,Español,Editorial Agata,1,f,,https://covers.openlibrary.org/b/id/4914926-L.jpg
+165,,La descendencia de Don Juan Vicente Acosta Chaves,"Ricardo Acosta Ruiz, Julio E. Revollo Acosta",Genealogía,2011,Español,Autopublicado,1,t,,
+166,9789968942119,La Desmovilizacion Militar en America Central,Rogelio Cedeno Castro,Relaciones Internacionales,2008,Español,Dicelibros,1,f,,
+167,9788431324391,La Disolución de Yugoslavia,"Romualdo Bermejo Garcia, Cesareo Gutierrez Espada",Relaciones Internacionales,2007,Español,EUNSA,1,t,,
+168,9788497943925,La Divina Comedia,Dante Alighieri,Literatura Clásica,2018,Español,EDIMAT Libros,1,f,,https://covers.openlibrary.org/b/id/11621024-L.jpg
+169,997767132X,La Era de la Encomienda,Claudia Quiros,Historia,2001,Español,Editorial UCR,1,f,,https://covers.openlibrary.org/b/id/3980269-L.jpg
+170,9788417114909,La Estrella de Mis Noches,Mike Lightwood,LGTBIQ,2018,Español,Plataforma Editorial,1,f,,https://covers.openlibrary.org/b/id/13455107-L.jpg
+171,9789968474436,La Etiqueta y el Protocolo en los Negocios,Jenny Scott Araya,Relaciones Internacionales,2011,Español,S.d.,1,t,,
+172,9789968474481,La Familia Steffen,"Alban Jesus Cambronero Acosta, Ligia Maria Cambronero Garcia",Genealogía,2011,Español,Mauricio Melendez Obando,1,t,,
+173,9789977679679,La Formación del Ciudadano Costarricense de 1821 a 1886,Maria de los Angeles Palacios Robles,Relaciones Internacionales,2008,Español,Editorial UCR,1,f,,https://covers.openlibrary.org/b/id/5467308-L.jpg
+174,9786287659582,La Furia,Alex Michaelides,Español,2024,Español,Penguin Random House Grupo Editorial,1,f,,
+175,9788497647038,La Genealogía de la Moral,Friedrich Nietzsche,Filosofía,2011,Español,EDIMAT Libros,1,f,,https://covers.openlibrary.org/b/id/14083589-L.jpg
+176,9786071648907,La Globalización,Zygmunt Bauman,Economía,2022,Español,Fondo de Cultura Economica,1,f,,https://covers.openlibrary.org/b/id/12335308-L.jpg
+177,9787802002302,La Historia China,The Overseas Chinese Affairs Office,Historia,2006,Español,The Overseas Chinese Affairs Office,1,t,,
+178,9789875749276,La Historia de Argentina Nacional y Popular,Alberto Lettieri,Historia,2018,Español,Prometeo Libros,1,f,,
+179,92964,La Maison Royale des Deux Siciles,Marques de Villareal de Alava,Historia,1964,Español,Altamira,1,f,,
+180,9788497643474,La Metamorfosis,Franz Kafka,Filosofía,2011,Español,EDIMAT Libros,1,f,,https://covers.openlibrary.org/b/id/14073660-L.jpg
+181,9789968460224,La Noticia como Recurso Didactico,Lilly Edgerton,Relaciones Internacionales,2008,Español,Editorial UCR,1,f,,
+182,9788475670058,La Odisea,Homero,Literatura Clásica,2002,Español,Editorial ALBA,1,f,,https://covers.openlibrary.org/b/id/13180792-L.jpg
+183,9789968462440,La Problematica del Agua en Costa Rica,Ricardo Valverde Sanchez,Relaciones Internacionales,2008,Español,Editorial UCR,1,f,,
+184,9788497647113,La Republica,Platon,Filosofía,2018,Español,EDIMAT Libros,1,t,,https://covers.openlibrary.org/b/id/10478827-L.jpg
+185,9788420650968,La Riqueza de las Naciones,Adam Smith,Economía,2014,Español,Alianza Editorial,1,t,,https://covers.openlibrary.org/b/id/8105163-L.jpg
+186,9788445010631,La Rueda del Tiempo - Desde Dos Rios,Robert Jordan,Fantasía Épica,2021,Español,Editorial Planeta,1,f,,https://covers.openlibrary.org/b/id/1008563-L.jpg
+187,9788434433175,La Sociedad Decadente,Ross Douthat,Economía,2021,Español,Editorial Ariel,1,f,,https://covers.openlibrary.org/b/id/9297047-L.jpg
+188,9788415618829,Las Aventuras de Sherlock Holmes,Arthur Conan Doyle,Literatura Clásica,2018,Español,Editorial Alma,1,f,,https://covers.openlibrary.org/b/id/12327403-L.jpg
+189,9788410214217,Las Cuentas de Centroamerica,"Luis Guillermo Solis Rivera, et al.",Relaciones Internacionales,2024,Español,Penguin Randon House Grupo Editorial,1,f,,
+190,9977930074,Las Primeras Damas de Costa Rica,"Jorge Francisco Saenz Carbonell, et al.",Historia,2001,Español,Instituto Costarricense de Electricidad,1,t,,
+192,9788411211277,Liderazgo Emocional,"Cary Cherniss, Cornelia W. Roche",Administración y Negocios,2020,Español,Editorial Kairos,1,f,,https://covers.openlibrary.org/b/id/13587423-L.jpg
+193,9788418222566,Links,Natzuki Kizu,LGTBIQ,2014,Español,Milky Way Ediciones,1,t,,https://covers.openlibrary.org/b/id/14000602-L.jpg
+194,9788420473895,Llamame por tu nombre,Andre Aciman,LGTBIQ,2018,Español,Penguin - Alfaguardia,1,t,,https://covers.openlibrary.org/b/id/10511599-L.jpg
+195,7441025500350,Lo mejor de la Cocina - 84 Recetas,Revista Perfil,Cocina,2007,Español,Grupo Nacion,1,f,,
+196,9788433924568,Los amigos que perdi,Jaime Bayly,Literatura Latinoamericana,2000,Español,Editorial Anagrama,1,f,"",https://covers.openlibrary.org/b/id/1047258-L.jpg
+197,9977200009,Los aspectos humanos de la organizacion,"Jean-Louis Bergeron, et al.",Administración y Negocios,1983,Español,Editorial ICAP,1,f,,
+198,9786078828746,Los Extraordinarios,TJ Klune,LGTBIQ,2023,Español,VR Editoras,1,f,,https://covers.openlibrary.org/b/id/10211184-L.jpg
+199,9788466359917,Los Innovadores,Walter Isaacson,Administración y Negocios,2022,Español,Penguin Randon House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/7313659-L.jpg
+200,9788427202122,Los Juegos del Hambre,Suzanne Collins,Ciencia Ficción,2008,Español,RBA Molino,1,f,,https://covers.openlibrary.org/b/id/12646537-L.jpg
+201,9783833124471,Los Mejores Cocteles de Nueva York,Sally Ann Beck,Cocina,2006,Español,Konemann,1,f,,
+202,9788420643489,Los Mitos Griegos 1,Robert Graves,Historia,2017,Español,Alianza Editorial,1,f,"",https://covers.openlibrary.org/b/id/12328143-L.jpg
+203,9789588991832,Los Reyes Malditos - El Rey de Hierro,Maurice Druon,Fantasía Épica,2017,Español,Ediciones B,1,f,,
+204,9789588991863,Los Reyes Malditos - La Ley de los Varones,Maurice Druon,Fantasía Épica,2017,Español,Ediciones B,1,f,,
+205,9789588991870,Los Reyes Malditos - La Loba de Francia,Maurice Druon,Fantasía Épica,2017,Español,Ediciones B,1,f,,
+206,9789588991849,Los Reyes Malditos - La Reina Estrangulada,Maurice Druon,Fantasía Épica,2017,Español,Ediciones B,1,f,,
+207,9789588991856,Los Reyes Malditos - Los Venenos de la Corona,Maurice Druon,Fantasía Épica,2017,Español,Ediciones B,1,f,,
+208,9788497644938,Macbeth,William Shakespeare,Literatura Clásica,2010,Español,EDIMAT Libros,1,t,,https://covers.openlibrary.org/b/id/872432-L.jpg
+209,9788437605883,Madame Bovary,Gustave Flaubert,Literatura Clásica,2016,Español,Ediciones Catedra,1,t,,https://covers.openlibrary.org/b/id/12993424-L.jpg
+210,9789506202019,Malvinas 1833,Arnoldo Canclini,Historia,2014,Español,Editorial Claridad,1,f,,
+211,9788495311689,Manifiesto del Partido Comunista,"Karl Marx, Friedrich Engels",Relaciones Internacionales,2007,Español,Mestas Ediciones,1,t,,https://covers.openlibrary.org/b/id/8105129-L.jpg
+212,9782409026157,Mantenimiento y reparacion de un PC en red,Yann Bardot,Ingeniería Informática,2020,Español,Ediciones ENI,1,t,,https://covers.openlibrary.org/b/id/10486556-L.jpg
+213,9781405481311,Manual de Cocina,Lioba Waleczek,Cocina,2004,Español,Parragon Books Ltd,1,f,,
+214,9788466331340,Maravilloso Error,Jamie McGuire,Novela Romántica y Erótica,2015,Español,Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/12042890-L.jpg
+215,9786287688810,The Game Changer Series - Más que Rivales,Rachel Reid,LGTBIQ,2026,Español,Penguin - Montena,1,t,,
+216,9781456266639,Matemáticas para Computación I,Seymour Lipschutz,Ingeniería Informática,2019,Español,Mc Graw Hill,2,t,,
+217,9781456256272,Matemáticas para Computación II,Seymour Lipschutz,Ingeniería Informática,2017,Español,Mc Graw Hill,1,t,,
+218,9789968936705,Matices del patrimonio cultural costarricense,Ligia Carvajal Mena,Relaciones Internacionales,2008,Español,Editorial UCR,1,f,,
+219,9789701057537,Metodología de la Investigación - 4ta Edición,"Roberto Hernandez Sampieri, et al",Administración y Negocios,2006,Español,Mc Graw Hill,1,t,,https://covers.openlibrary.org/b/id/8000856-L.jpg
+220,9788416449262,Mi diario de yoga,Xuan-Lan,Salud,,Español,Grijalbo,1,f,,https://covers.openlibrary.org/b/id/12331425-L.jpg
+221,9788466338813,Mi Isla,Elisabet Benavent,Novela Romántica y Erótica,2017,Español,Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/14496781-L.jpg
+222,9788413149813,Mistborn - Nacidos de la Bruma,Brandon Sanderson,Fantasía Épica,2025,Español,Penguin Randon House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/15252182-L.jpg
+223,Rev-003,Navidad a Toda Hora,Revista Sabores,Cocina,2010,Español,Grupo Nacion,1,f,,
+224,7441025505539,Nuestros Mejores 50 Queques,Revista Sabores,Cocina,2010,Español,Grupo Nacion,1,f,,
+225,9977649421,Oduber,Joaquin Alberto Fernandez Alfaro,Historia,1997,Español,EUNED,1,f,,https://covers.openlibrary.org/b/id/4934411-L.jpg
+226,9780140623291,Oliver Twist,Charles Dickens,Inglés,1994,Ingles,Penguin Books,1,f,,https://covers.openlibrary.org/b/id/13300802-L.jpg
+227,9788489660823,Organizacion y arquitectura de computadores,Willian Stallings,Ingeniería Informática,2005,Español,Pearson Educacion,1,t,,https://covers.openlibrary.org/b/id/8703329-L.jpg
+228,9977200300,Organizacion y gerencia publica,"Rethenly Figueroa, Carlos Molina O.",Administración y Negocios,1994,Español,Editorial ICAP,1,f,,
+229,9789585396449,"Orgullo, prejuicio, tu y yo",Rachael Lippincott,LGTBIQ,2023,Español,Penguin Random House Grupo Editorial,1,f,,
+230,,Origenes de los Ramonenses - Familias Fundadoras de San Ramon,Eduardo Fournier Garcia,Genealogía,1994,Español,Museo Historico Cultural Juan Santamaria,1,t,,
+231,9788497644532,Otelo,William Shakespeare,Literatura Clásica,2011,Español,EDIMAT Libros,1,t,,https://covers.openlibrary.org/b/id/7165018-L.jpg
+232,9788466377720,Outlander - Cuenta a las abejas que me fui,Diana Gabaldon,Fantasía Épica,2024,Español,Penguin Random House Grupo Editorial,1,f,,
+233,9788498387186,Outlander - Forastera,Diana Gabaldon,Fantasía Épica,2017,Español,Publicaciones y Ediciones Salamandra,1,t,,https://covers.openlibrary.org/b/id/14428230-L.jpg
+234,9780593497197,Outlander - Go Tell the Bees That I Am Gone,Diana Gabaldon,Fantasía Épica,2021,Ingles,Penguin Random House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/10860237-L.jpg
+235,9789968502214,Pasteles Esponjosos,Wendy Sweetser,Cocina,2011,Español,Ediciones JADINE,1,t,,
+236,9781407556987,Platos Unicos,Parragon,Cocina,2008,Español,Parragon Books Ltd,1,t,,
+237,9781407585079,Postres,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,,
+238,9789509445635,Primero la Gente,"Amartya Sen, Bernardo Kliksberg",Economía,2007,Español,TEMAS Grupo Editorial,1,t,,
+239,9789968488532,Principios de Administracion,"Jose E. Gutierrez Duran, Vicente Godoy Sandoval",Administración y Negocios,2020,Español,EUNED,1,t,,
+240,9788499429601,Prisioneros de la Geografia,Tim Marshall,Relaciones Internacionales,2021,Español,Ediciones Peninsula,1,f,,https://covers.openlibrary.org/b/id/13537766-L.jpg
+241,,Progenitores de los Costarricenses,Mario Barrantes Ferrero,Genealogía,1973,Español,ACCG,1,t,,
+242,9788408286158,Punk 57,Penelope Douglas,Novela Romántica y Erótica,2024,Español,Editorial Planeta,1,f,,https://covers.openlibrary.org/b/id/10107803-L.jpg
+243,9786078712427,Ravensong - La Cancion del Cuervo,TJ Klune,LGTBIQ,2022,Español,VR Editoras,1,f,,
+244,9789706273505,Rebelion en la Granja,George Orwell,Ciencia Ficción,,Español,Ediciones Culturales Partenon,1,t,,https://covers.openlibrary.org/b/id/13712713-L.jpg
+245,9788430945535,Relaciones Internacionales,Esther Barbe,Relaciones Internacionales,2008,Español,Editorial Tecnos,1,t,,https://covers.openlibrary.org/b/id/10456112-L.jpg
+246,,Resena Historica de Limon,"Jaime Granados Chacon, Ligia Estrada Molina",Historia,1967,Español,Imprenta Nacional,1,f,,
+247,,Revista de la ACCG - Tomo 1,Academia Costarricense de Ciencias Genealogicas,Genealogía,1953,Español,ACCG,1,t,,
+248,,Revista de la ACCG - Tomo 13-14,Academia Costarricense de Ciencias Genealogicas,Genealogía,1966,Español,ACCG,1,t,,
+249,,Revista de la ACCG - Tomo 16-17,Academia Costarricense de Ciencias Genealogicas,Genealogía,1970,Español,ACCG,1,t,,
+250,,Revista de la ACCG - Tomo 18-19-20,Academia Costarricense de Ciencias Genealogicas,Genealogía,1973,Español,ACCG,1,t,,
+251,,Revista de la ACCG - Tomo 22,Academia Costarricense de Ciencias Genealogicas,Genealogía,1975,Español,ACCG,1,t,,
+252,,Revista de la ACCG - Tomo 23,Academia Costarricense de Ciencias Genealogicas,Genealogía,1976,Español,ACCG,1,t,,
+253,,Revista de la ACCG - Tomo 26,Academia Costarricense de Ciencias Genealogicas,Genealogía,1980,Español,ACCG,1,t,,
+254,,Revista de la ACCG - Tomo 30-31,Academia Costarricense de Ciencias Genealogicas,Genealogía,1987,Español,ACCG,2,t,,
+255,,Revista de la ACCG - Tomo 32,Academia Costarricense de Ciencias Genealogicas,Genealogía,1991,Español,ACCG,1,t,,
+256,,Revista de la ACCG - Tomo 33,Academia Costarricense de Ciencias Genealogicas,Genealogía,1992,Español,ACCG,1,t,,
+257,,Revista de la ACCG - Tomo 34,Academia Costarricense de Ciencias Genealogicas,Genealogía,1994,Español,ACCG,2,t,,
+258,,Revista de la ACCG - Tomo 35,Academia Costarricense de Ciencias Genealogicas,Genealogía,1995,Español,ACCG,1,t,,
+259,,Revista de la ACCG - Tomo 36,Academia Costarricense de Ciencias Genealogicas,Genealogía,1998,Español,ACCG,1,t,,
+260,,Revista de la ACCG - Tomo 37,Academia Costarricense de Ciencias Genealogicas,Genealogía,2000,Español,ACCG,1,t,,
+261,,Revista de la ACCG - Tomo 38,Academia Costarricense de Ciencias Genealogicas,Genealogía,2000,Español,ACCG,1,t,,
+262,,Revista de la ACCG - Tomo 39-40,Academia Costarricense de Ciencias Genealogicas,Genealogía,2003,Español,ACCG,1,t,,
+263,,Revista de la ACCG - Tomo 41,Academia Costarricense de Ciencias Genealogicas,Genealogía,2004,Español,ACCG,1,t,,
+264,,Revista de la ACCG - Tomo 42-43,Academia Costarricense de Ciencias Genealogicas,Genealogía,2008,Español,ACCG,1,t,,
+265,,Revista de la ACCG - Tomo 44,Academia Costarricense de Ciencias Genealogicas,Genealogía,2009,Español,ACCG,1,t,,
+266,,Revista de la ACCG - Tomo 45,Academia Costarricense de Ciencias Genealogicas,Genealogía,2010,Español,ACCG,1,t,,
+267,,Revista de la ACCG - Tomo 49,Academia Costarricense de Ciencias Genealogicas,Genealogía,2013,Español,ACCG,1,t,,
+268,,Revista de la ACCG - Tomo 8,Academia Costarricense de Ciencias Genealogicas,Genealogía,1960,Español,ACCG,1,t,,
+269,,Revista de la ACCG - Tomo 9,Academia Costarricense de Ciencias Genealogicas,Genealogía,1961,Español,ACCG,1,t,,
+270,16590066,Revista Herencia,Universidad de Costa Rica,Historia,1988,Español,Editorial UCR,1,f,,
+271,9788496975576,Romeo y Julieta,William Shakespeare,Literatura Clásica,2016,Español,Ediciones Brontes,1,t,,https://covers.openlibrary.org/b/id/12065571-L.jpg
+272,9789977760162,Serie Ivonne Clays - El Canciller Acosta,Julio Ernesto Revollo Acosta,Relaciones Internacionales,2013,Español,Imprenta Nacional,1,f,,
+273,9789977760278,Serie Ivonne Clays - El Canciller Montufar,Joaquin Alberto Fernandez Alfaro,Relaciones Internacionales,2014,Español,Imprenta Nacional,1,f,,
+274,9789977760100,Serie Ivonne Clays - El Canciller Rodriguez,Jorge Francisco Saenz Carbonell,Relaciones Internacionales,2011,Español,Imprenta Nacional,1,f,,
+275,9789977760261,Serie Ivonne Clays - El Canciller Toledo,Emilio Gerardo Obando Cairol,Relaciones Internacionales,2014,Español,Imprenta Nacional,1,f,,
+276,9789977760438,Serie Ivonne Clays - El Canciller Venegas,Luis Carlos Serrano Madrigal,Relaciones Internacionales,2017,Español,Imprenta Nacional,1,f,,
+277,9789977760230,Serie Ivonne Clays - El General Joaquin Eufrasio Guzman,Jorge Larde y Larin,Relaciones Internacionales,2014,Español,Imprenta Nacional,1,f,,
+278,9789977760247,Serie Ivonne Clays - Manuel de Jesus Jimenez Oreamuno,Jorge Umana Vargas,Relaciones Internacionales,2014,Español,Imprenta Nacional,1,f,,
+279,9789977760339,Serie Ivonne Clays - Primera Dama Ivonne Clays,Miguel Acuna V.,Relaciones Internacionales,2015,Español,Imprenta Nacional,1,f,,
+280,9789977760315,Serie Ivonne Clays - Seis Cancilleres Interinos,"Jorge Francisco Saenz Carbonell, et al.",Relaciones Internacionales,2015,Español,Imprenta Nacional,1,f,,
+281,9786074420463,Sistemas Operativos Modernos,Andrew S. Tanenbaum,Ingeniería Informática,2009,Español,Pearson Educacion,1,t,,https://covers.openlibrary.org/b/id/9378721-L.jpg
+282,9789968461160,Sistemas Politicos Contemporaneos,"Cesar A. Zuniga Ramirez, Luis Emilio Jimenez Gonzalez",Relaciones Internacionales,2008,Español,Editorial UCR,1,f,,
+283,9780811822307,Smoothies,Sara Corpening,Cocina,1999,Ingles,Chronicle Books,1,f,,https://covers.openlibrary.org/b/id/600263-L.jpg
+284,9977830665,Somos Parte de un Gran Equilibrio,Ingemar Hedstrom,Economía,1993,Español,Editorial DEI,1,t,,https://covers.openlibrary.org/b/id/4179756-L.jpg
+285,9786071131607,Suenos de Dioses y Monstruos,Laini Taylor,Fantasía Épica,2014,Español,Alfaguardia,1,f,,https://covers.openlibrary.org/b/id/8452865-L.jpg
+286,9781407585079,Sushi,Parragon,Cocina,2009,Español,Parragon Books Ltd,1,t,,https://covers.openlibrary.org/b/id/8469823-L.jpg
+287,9781335534606,The Game Changer Series - Common Goal,Rachel Reid,LGTBIQ,2024,Ingles,Carina Press - Harlequin,1,f,"",https://covers.openlibrary.org/b/id/10221572-L.jpg
+288,9781335534620,The Game Changer Series - Game Changer,Rachel Reid,LGTBIQ,2024,Ingles,Carina Press - Harlequin,1,t,"",https://covers.openlibrary.org/b/id/11050489-L.jpg
+289,9781335534637,The Game Changer Series - Heated Rivalry,Rachel Reid,LGTBIQ,2024,Ingles,Carina Press - Harlequin,1,t,"",
+290,9781335534613,The Game Changer Series - Role Model,Rachel Reid,LGTBIQ,2024,Ingles,Carina Press - Harlequin,1,f,"",https://covers.openlibrary.org/b/id/11300616-L.jpg
+291,9781335534590,The Game Changer Series - Tough Guy,Rachel Reid,LGTBIQ,2024,Ingles,Carina Press - Harlequin,1,f,"",https://covers.openlibrary.org/b/id/15227109-L.jpg
+292,9780374533229,The Origins of Political Order,Francis Fukuyama,Relaciones Internacionales,2011,Ingles,"Farrar, Straus and Giroux",1,t,,https://covers.openlibrary.org/b/id/10105880-L.jpg
+293,7441025507243,Tia Florita - Mis 50 Recetas para Celebrar,Revista Sabores,Cocina,2011,Español,Grupo Nacion,1,f,,
+294,9788497645560,Tratado de Pintura,Leonardo da Vinci,Literatura Clásica,2011,Español,EDIMAT Libros,1,f,,https://covers.openlibrary.org/b/id/3359531-L.jpg
+295,9786073143691,Trono de Cristal - Corona de Medianoche,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,,https://covers.openlibrary.org/b/id/14348029-L.jpg
+296,9798890981561,Trono de Cristal - Heredera de Fuego,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,,https://covers.openlibrary.org/b/id/9318480-L.jpg
+297,9798890981585,Trono de Cristal - Imperio de Tormentas,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,,https://covers.openlibrary.org/b/id/15254084-L.jpg
+298,9798890981578,Trono de Cristal - Reina de Sombras,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,,https://covers.openlibrary.org/b/id/7994583-L.jpg
+299,9798890981608,Trono de Cristal - Reino de Cenizas,Sarah J. Mass,Fantasía Épica,2025,Español,Penguin Random Alfaguara,1,t,,https://covers.openlibrary.org/b/id/8465438-L.jpg
+300,9798890981592,Trono de Cristal - Torre del Alba,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,f,,https://covers.openlibrary.org/b/id/8506737-L.jpg
+301,9788990981547,Trono de Cristal - Trono de Cristal,Sarah J. Mass,Fantasía Épica,2024,Español,Penguin Random Alfaguara,1,t,,
+302,9786077478157,Un Nuevo Mundo Feliz,Ulrich Beck,Economía,2000,Español,Editorial Paidos,1,f,,https://covers.openlibrary.org/b/id/3328173-L.jpg
+303,977930058,Un Siglo de Actividad Electrica en Costa Rica,Joaquin Alberto Fernandez Alfaro,Historia,2000,Español,Instituto Costarricense de Electricidad,1,f,,
+304,9788408257127,Una Corte de Alas y Ruina,Sarah J. Mass,Fantasía Épica,2022,Español,Cross books,1,t,,https://covers.openlibrary.org/b/id/8506724-L.jpg
+305,9788408257134,Una Corte de Hielo y Estrellas,Sarah J. Mass,Fantasía Épica,2022,Español,Cross books,1,t,,https://covers.openlibrary.org/b/id/8569939-L.jpg
+306,9788408249429,Una Corte de Llamas Plateadas,Sarah J. Mass,Fantasía Épica,2021,Español,Cross books,1,t,,https://covers.openlibrary.org/b/id/10643508-L.jpg
+307,9788408257110,Una Corte de Niebla y Furia,Sarah J. Mass,Fantasía Épica,2022,Español,Cross books,1,t,,https://covers.openlibrary.org/b/id/14315081-L.jpg
+308,9788408257103,Una Corte de Rosas y Espinas,Sarah J. Mass,Fantasía Épica,2022,Español,Cross books,1,t,,https://covers.openlibrary.org/b/id/15254465-L.jpg
+309,9788466343220,Una Odisea Espacial,Arthur C. Clarke,Fantasía Épica,2024,Español,Penguin Randon House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/12292248-L.jpg
+310,9788495994394,Utopia,Tomas Moro,Filosofía,2009,Español,Mestas Ediciones,1,t,,https://covers.openlibrary.org/b/id/10540128-L.jpg
+311,9977953333,Walker en Centro America,Lorenzo Montufar,Historia,2000,Español,Museo Historico Cultural Juan Santamaria,1,f,,https://covers.openlibrary.org/b/id/4934020-L.jpg
+312,9780811833363,Webers - Art of the Grill Deck,Weber,Cocina,2002,Ingles,Weber-Stephen Products Co.,1,f,,https://covers.openlibrary.org/b/id/600671-L.jpg
+313,9788412450811,Wine Folly - La Guia Maestra,"Madeline Puckette, Justin Hammack",Cocina,2025,Español,ColAndCol,1,f,,
+314,9786078614455,Wolfsong - La Cancion del Lobo,TJ Klune,LGTBIQ,2024,Español,VR Editoras,1,f,,https://covers.openlibrary.org/b/id/9206887-L.jpg
+315,9788433910912,Yo amo a mi mami,Jaime Bayly,Literatura Latinoamericana,1999,Español,Editorial Anagrama,1,f,"",https://covers.openlibrary.org/b/id/3708742-L.jpg
+316,9788488190330,Aceites Esenciales,Gill Farrer-Halls,Ciencia,2019,Español,Blume,1,f,,https://covers.openlibrary.org/b/id/9290923-L.jpg
+317,9788410050105,Legacy of Gods - (I) God of Malice,Rina Kent,Novela Romántica y Erótica,2024,Español,Montena - Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/13291765-L.jpg
+318,9791387724429,Legacy of Gods - (IV) God of Ruin,Rina Kent,Novela Romántica y Erótica,2025,Español,Montena - Penguin Random House Grupo Editorial,1,t,,
+319,9788445076538,Crónicas Marcianas,Ray Bradbury,Ciencia Ficción,2024,Español,Editorial Planeta,1,f,,https://covers.openlibrary.org/b/id/9346537-L.jpg
+320,9788419599339,Mitos + Leyendas Antiguo Egipto,Nuria Castellano I Sole,Historia,2023,Español,Editorial Alma,1,f,,
+321,9788410298231,Legacy of Gods - (III) God of Wrath,Rina Kent,Novela Romántica y Erótica,2025,Español,Montena - Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/12989788-L.jpg
+322,9788466380621,Fahrenheit 451,Ray Bradbury,Ciencia Ficción,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/12993656-L.jpg
+323,9788497594257,Un mundo feliz,Aldous Huxley,Ciencia Ficción,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/8231823-L.jpg
+324,9788419599841,Mitos + Leyendas Celtas,Laia San Jose Beltran,Historia,2024,Español,Editorial Alma ,1,f,,
+325,9788410395763,Legacy of Gods - (II) God of Pain,Rina Kent,Novela Romántica y Erótica,2025,Español,Montena - Penguin Random House Grupo Editorial,1,t,,https://covers.openlibrary.org/b/id/13547509-L.jpg
+326,9791387711443,Los Habitantes del Aire - El Principe Cruel,Holly Black,Fantasía Épica,2025,Español,Editorial Hidra,2,f,Una copia está suelta de forma individual y la otra está en Estuche de Edición Especial,
+327,9786070772658,¿Sueñan los Androides con Ovejas Eléctricas?,Philip K. Dick,Ciencia Ficción,2025,Español,Minotauro - Editorial Planeta Mexicana,1,f,,https://covers.openlibrary.org/b/id/14120064-L.jpg
+328,9788410197428,El Priorato del Naranjo,Samantha Shannon,Fantasía Épica,2026,Español,Rocabolsillo - Penguin Random House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/10169355-L.jpg
+329,9781335534644,The Game Changer Series - The Long Game,Rachel Reid,LGTBIQ,2024,Inglés,Carina Press - Harlequin,1,f,"",https://covers.openlibrary.org/b/id/13229174-L.jpg
+330,9788420653419,Almas Muertas,Nikolai Gogol,Literatura Clásica,2024,Español,Alianza Editorial,1,f,"",https://covers.openlibrary.org/b/id/13935891-L.jpg
+331,9789585118409,Cadáver Exquisito,Agustina Bazterrica,Ciencia Ficción,2026,Español,Alfaguara - Penguin Random House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/8169547-L.jpg
+332,9788497931274,Saga Fundación - 1 - Preludio a la Fundación,Isaac Asimov,Ciencia Ficción,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,"",https://covers.openlibrary.org/b/id/12816973-L.jpg
+333,9786076372234,Santo,Sierra Simone,LGTBIQ,2025,Español,VR Editoras,1,f,,
+334,9781464251801,Villain - (1) Kiss the Villain,Rina Kent,LGTBIQ,2025,Ingles,Bloom Books,1,t,"",
+335,9781464279256,Villain - (2) Hunt the Villain,Rina Kent,LGTBIQ,2026,Ingles,Bloom Books,1,t,"",https://covers.openlibrary.org/b/id/15204030-L.jpg
+336,9781464245640,Vipers - (III) Tempting Venom,Rina Kent,LGTBIQ,2026,Ingles,Bloom Books,1,f,,
+337,9786073874250,The Game Changer - Cambiar el Juego,Rachel Reid,LGTBIQ,2026,Español,Montena - Penguin Random House Grupo Editorial,1,f,,
+338,9791387810733,Por los Fans,Nyla K.,LGTBIQ,2025,Español,Contraluz Editorial,1,f,,
+339,9788410425125,Top Secret,Sarina Bowen y Ellen Kennedy,LGTBIQ,2025,Español,Wonderbooks,1,f,,
+340,9788418933288,El Arte de la Guerra,Sun Tzu,Filosofía,2022,Español,Alma Editorial,1,f,,https://covers.openlibrary.org/b/id/4849549-L.jpg
+341,9788419599674,Rebelión en la Granja,George Orwell,Ciencia Ficción,2024,Español,Alma Editorial,1,f,"",https://covers.openlibrary.org/b/id/13712713-L.jpg
+342,9788419599681,1984,George Orwell,Ciencia Ficción,2024,Español,Alma Editorial,1,f,,https://covers.openlibrary.org/b/id/8745958-L.jpg
+343,9788417430719,Orgullo y Prejuicio,Jane Austen,Literatura Clásica,2019,Español,Alma Editorial,1,f,,https://covers.openlibrary.org/b/id/14348537-L.jpg
+344,9788418008535,Cumbres Borrascosas,Emily Bronte,Literatura Clásica,2020,Español,Alma Editorial,1,f,,https://covers.openlibrary.org/b/id/12818862-L.jpg
+345,9788419599711,Meditaciones,Marco Aurelio,Filosofía,2024,Español,Alma Editorial,1,f,,https://covers.openlibrary.org/b/id/10469464-L.jpg
+346,9788426431301,Tan Poca Vida,Hanya Yanagihara,Español,2025,Español,Lumen - Penguin Random House Grupo Editorial,1,f,,
+347,9788490628720,Ensayo Sobre la Ceguera,José Saramago,Español,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/10482411-L.jpg
+348,9788490628768,Ensayo Sobre la Lucidez,José Saramago,Español,2025,Español,"",1,f,,https://covers.openlibrary.org/b/id/112440-L.jpg
+349,9788466380812,La Casa de los Espíritus,Isabel Allende,Literatura Latinoamericana,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,,https://covers.openlibrary.org/b/id/3205226-L.jpg
+350,9788490709870,Todos Nuestros Veranos,Carley Fortune,Novela Romántica y Erótica,2025,Español,Debolsillo - Penguin Random House Grupo Editorial,1,f,,
+351,9788408289739,Cazadores de Sombras - Ciudad de Hueso,Cassandra Clare,Fantasía Épica,2024,Español,Planeta S.A.,1,f,,https://covers.openlibrary.org/b/id/14157069-L.jpg
+352,9788408319986,Dioses del Juego - The Striker Los Opuestos de Atraen,Ana Huang,Novela Romántica y Erótica,2026,Español,Grupo Planeta,1,f,,
+353,9788410050075,Alchemised - No Queda Nadie a Quien Salvar,SenLin Yu,Fantasía Épica,2025,Español,Penguin Random House Grupo Editorial,1,f,,
+354,9791387711450,Los Habitantes del Aire - El Rey Malvado,Holly Black,Fantasía Épica,2025,Español,Hidra,1,f,,
+355,9791387711467,Los Habitantes del Aire - La Reina de Nada,Holly Black,Fantasía Épica,2025,Español,Hidra,1,f,,

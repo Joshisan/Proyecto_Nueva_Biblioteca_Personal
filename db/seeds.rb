@@ -31,13 +31,15 @@ CSV.foreach(ruta_libros, headers: true) do |fila|
     anio_edicion: nil,
     idioma: fila["idioma"].presence,
     editorial: fila["editorial"].presence,
-    unidades: fila["unidades"].presence || 1
+    unidades: fila["unidades"].presence || 1,
+    portada_url: fila["portada_url"].presence
   )
 
   libro.save!
 end
 
 puts "Libros importados: #{Libro.count}"
+puts "Libros con portada: #{Libro.where.not(portada_url: [nil, ""]).count}"
 
 puts "Creando usuario administrador..."
 
