@@ -1,0 +1,29 @@
+<div class="mb-4">
+  <%= link_to "← Volver al libro",
+        libro_path(@libro),
+        class: "text-decoration-none text-secondary" %>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-12 col-lg-9">
+
+    <div class="card border-0 shadow-sm">
+      <div class="card-body p-4 p-md-5">
+
+        <div class="mb-4">
+          <h1 class="h2 fw-bold mb-2">
+            Editar libro
+          </h1>
+
+          <p class="text-secondary mb-0">
+            Modifica la información del libro en el catálogo general.
+          </p>
+        </div>
+
+        <%= render "form" %>
+
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,15 @@
+one:
+  nombre: Usuario
+  apellido: Uno
+  email: usuario1@prueba.com
+  password_digest: <%= BCrypt::Password.create("Prueba1234") %>
+  rol: usuario
+  activo: true
+
+two:
+  nombre: Usuario
+  apellido: Dos
+  email: usuario2@prueba.com
+  password_digest: <%= BCrypt::Password.create("Prueba1234") %>
+  rol: usuario
+  activo: true

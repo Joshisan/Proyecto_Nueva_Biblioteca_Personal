@@ -1,0 +1,405 @@
+<!-- =========================================
+     Encabezado
+     ========================================= -->
+
+<div class="catalog-header">
+
+  <div>
+    <p class="catalog-eyebrow mb-2">
+      Tu colección
+    </p>
+
+    <h1 class="catalog-title mb-2">
+      Catálogo
+    </h1>
+
+    <p class="catalog-subtitle mb-0">
+      Explora los <%= @total_libros %>
+      <%= @total_libros == 1 ? "libro disponible" : "libros disponibles" %>
+      en tu biblioteca
+    </p>
+  </div>
+
+  <% if current_usuario.administrador? %>
+    <div class="catalog-actions">
+
+      <%= link_to libros_archivados_path,
+            class: "btn catalog-secondary-button" do %>
+
+        <i class="bi bi-archive me-2"></i>
+        Archivados
+
+      <% end %>
+
+      <%= link_to new_libro_path,
+            class: "btn catalog-primary-button" do %>
+
+        <i class="bi bi-plus-lg me-2"></i>
+        Agregar libro
+
+      <% end %>
+
+    </div>
+  <% end %>
+
+</div>
+
+
+<!-- =========================================
+     Buscador
+     ========================================= -->
+
+<div class="catalog-search">
+
+  <%= form_with url: libros_path,
+        method: :get,
+        class: "catalog-search-form" do |form| %>
+
+    <%= form.hidden_field :vista, value: @vista %>
+
+    <div class="catalog-search-input">
+
+      <i class="bi bi-search"></i>
+
+      <%= form.text_field :buscar,
+            value: params[:buscar],
+            placeholder: "Buscar por título, autor, categoría o editorial...",
+            autocomplete: "off" %>
+
+    </div>
+
+    <%= form.submit "Buscar",
+          class: "btn catalog-search-button" %>
+
+    <% if params[:buscar].present? %>
+
+      <%= link_to libros_path(vista: @vista),
+            class: "btn catalog-clear-button",
+            title: "Limpiar búsqueda" do %>
+
+        <i class="bi bi-x-lg"></i>
+
+      <% end %>
+
+    <% end %>
+
+  <% end %>
+
+</div>
+
+
+<!-- =========================================
+     Información de resultados y selector
+     ========================================= -->
+
+<div class="catalog-results-header">
+
+  <div>
+    <% if params[:buscar].present? %>
+
+      <p class="catalog-results-text mb-0">
+        Resultados para
+        <strong>"<%= params[:buscar] %>"</strong>
+      </p>
+
+    <% else %>
+
+      <p class="catalog-results-text mb-0">
+        Todos los libros
+      </p>
+
+    <% end %>
+  </div>
+
+
+  <div class="catalog-results-actions">
+
+    <span class="catalog-count">
+      <%= @pagy.from %>–<%= @pagy.to %> de <%= @pagy.count %>
+    </span>
+
+
+    <div class="catalog-view-switcher">
+
+      <%= link_to libros_path(
+            buscar: params[:buscar].presence,
+            vista: "cuadricula"
+          ),
+          class: "catalog-view-button #{@vista == 'cuadricula' ? 'active' : ''}",
+          title: "Vista de cuadrícula" do %>
+
+        <i class="bi bi-grid"></i>
+
+      <% end %>
+
+
+      <%= link_to libros_path(
+            buscar: params[:buscar].presence,
+            vista: "lista"
+          ),
+          class: "catalog-view-button #{@vista == 'lista' ? 'active' : ''}",
+          title: "Vista de lista" do %>
+
+        <i class="bi bi-list-ul"></i>
+
+      <% end %>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     Libros
+     ========================================= -->
+
+<% if @libros.any? %>
+
+  <% if @vista == "cuadricula" %>
+
+    <!-- =====================================
+         Vista de cuadrícula
+         ===================================== -->
+
+    <div class="book-grid">
+
+      <% @libros.each do |libro| %>
+
+        <article class="book-card">
+
+          <%= link_to libro_path(libro),
+                class: "book-card-link" do %>
+
+            <div class="book-cover">
+
+              <% if libro.portada_url.present? %>
+
+                <%= image_tag libro.portada_url,
+                      alt: "Portada de #{libro.titulo}",
+                      class: "book-cover-image",
+                      loading: "lazy" %>
+
+              <% else %>
+
+                <div class="book-cover-placeholder">
+
+                  <div class="book-cover-placeholder-icon">
+                    <i class="bi bi-book"></i>
+                  </div>
+
+                  <div class="book-cover-placeholder-content">
+
+                    <span class="book-cover-placeholder-title">
+                      <%= libro.titulo %>
+                    </span>
+
+                    <span class="book-cover-placeholder-author">
+                      <%= libro.autor %>
+                    </span>
+
+                  </div>
+
+                </div>
+
+              <% end %>
+
+            </div>
+
+
+            <div class="book-card-content">
+
+              <span class="book-category">
+                <%= libro.categoria.nombre %>
+              </span>
+
+              <h2 class="book-card-title">
+                <%= libro.titulo %>
+              </h2>
+
+              <p class="book-card-author">
+                <%= libro.autor %>
+              </p>
+
+
+              <div class="book-card-meta">
+
+                <% if libro.anio_publicacion.present? %>
+                  <span>
+                    <i class="bi bi-calendar3"></i>
+                    <%= libro.anio_publicacion %>
+                  </span>
+                <% end %>
+
+                <% if libro.idioma.present? %>
+                  <span>
+                    <i class="bi bi-translate"></i>
+                    <%= libro.idioma %>
+                  </span>
+                <% end %>
+
+              </div>
+
+            </div>
+
+          <% end %>
+
+        </article>
+
+      <% end %>
+
+    </div>
+
+
+  <% else %>
+
+    <!-- =====================================
+         Vista de lista
+         ===================================== -->
+
+    <div class="catalog-list-container">
+
+      <div class="table-responsive">
+
+        <table class="table catalog-list-table align-middle mb-0">
+
+          <thead>
+            <tr>
+              <th>Libro</th>
+              <th>Categoría</th>
+              <th>Editorial</th>
+              <th>Año</th>
+              <th>Idioma</th>
+              <th>Unidades</th>
+              <th></th>
+            </tr>
+          </thead>
+
+          <tbody>
+
+            <% @libros.each do |libro| %>
+
+              <tr>
+
+                <td>
+                  <div class="catalog-list-book">
+
+                    <div class="catalog-list-cover">
+
+                      <% if libro.portada_url.present? %>
+
+                        <%= image_tag libro.portada_url,
+                              alt: "Portada de #{libro.titulo}",
+                              loading: "lazy" %>
+
+                      <% else %>
+
+                        <i class="bi bi-book"></i>
+
+                      <% end %>
+
+                    </div>
+
+                    <div>
+                      <%= link_to libro.titulo,
+                            libro_path(libro),
+                            class: "catalog-list-title" %>
+
+                      <span class="catalog-list-author">
+                        <%= libro.autor %>
+                      </span>
+                    </div>
+
+                  </div>
+                </td>
+
+                <td>
+                  <span class="catalog-list-category">
+                    <%= libro.categoria.nombre %>
+                  </span>
+                </td>
+
+                <td>
+                  <%= libro.editorial.presence || "—" %>
+                </td>
+
+                <td>
+                  <%= libro.anio_publicacion.presence || "—" %>
+                </td>
+
+                <td>
+                  <%= libro.idioma.presence || "—" %>
+                </td>
+
+                <td>
+                  <%= libro.unidades %>
+                </td>
+
+                <td class="text-end">
+
+                  <%= link_to libro_path(libro),
+                        class: "catalog-list-open",
+                        title: "Ver libro" do %>
+
+                    <i class="bi bi-chevron-right"></i>
+
+                  <% end %>
+
+                </td>
+
+              </tr>
+
+            <% end %>
+
+          </tbody>
+
+        </table>
+
+      </div>
+
+    </div>
+
+  <% end %>
+
+
+  <!-- =====================================
+       Paginación
+       ===================================== -->
+
+  <% if @pagy.pages > 1 %>
+
+    <div class="catalog-pagination">
+      <%== @pagy.series_nav %>
+    </div>
+
+  <% end %>
+
+
+<% else %>
+
+  <!-- =====================================
+       Sin resultados
+       ===================================== -->
+
+  <div class="catalog-empty">
+
+    <div class="catalog-empty-icon">
+      <i class="bi bi-search"></i>
+    </div>
+
+    <h2>
+      No encontramos libros
+    </h2>
+
+    <p>
+      Prueba utilizando otro título, autor, categoría o editorial
+    </p>
+
+    <%= link_to "Mostrar todo el catálogo",
+          libros_path(vista: @vista),
+          class: "btn catalog-primary-button" %>
+
+  </div>
+
+<% end %>

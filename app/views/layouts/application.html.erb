@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= content_for(:title) || "Biblioteca Personal" %></title>
+
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Biblioteca Personal">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= yield :head %>
+
+    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="icon" href="/icon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/icon.png">
+
+    <!-- Bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    >
+
+    <!-- Estilos propios de la aplicación -->
+    <%= stylesheet_link_tag :app, "data-turbo-track": "reload" %>
+
+    <!-- JavaScript de Rails -->
+    <%= javascript_importmap_tags %>
+
+    <!-- Bootstrap JavaScript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+  </head>
+
+  <body>
+
+    <% if usuario_autenticado? %>
+
+      <div class="app-layout" id="appLayout">
+
+        <!-- =========================================
+             Sidebar
+             ========================================= -->
+
+        <aside class="app-sidebar" id="appSidebar">
+
+          <!-- Botón para contraer/expandir -->
+
+          <button
+            type="button"
+            class="sidebar-toggle"
+            id="sidebarToggle"
+            aria-label="Contraer menú lateral"
+            aria-expanded="true"
+            title="Contraer menú"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+
+
+          <!-- Marca -->
+
+          <div class="sidebar-brand">
+
+            <%= link_to root_path, class: "sidebar-brand-link" do %>
+
+              <span class="sidebar-brand-icon">
+                <i class="bi bi-book-half"></i>
+              </span>
+
+              <span class="sidebar-brand-text">
+                <strong>Biblioteca</strong>
+                <span>Personal</span>
+              </span>
+
+            <% end %>
+
+          </div>
+
+
+          <!-- Navegación principal -->
+
+          <nav class="sidebar-navigation">
+
+            <p class="sidebar-section-title">
+              Biblioteca
+            </p>
+
+
+            <%= link_to root_path,
+                  class: "sidebar-link #{'active' if current_page?(root_path)}",
+                  title: "Inicio" do %>
+
+              <i class="bi bi-house-door"></i>
+              <span>Inicio</span>
+
+            <% end %>
+
+
+            <%= link_to libros_path,
+                  class: "sidebar-link #{'active' if controller_name == 'libros' && %w[index show edit].include?(action_name)}",
+                  title: "Catálogo" do %>
+
+              <i class="bi bi-bookshelf"></i>
+              <span>Catálogo</span>
+
+            <% end %>
+
+            <%= link_to mi_biblioteca_path,
+                  class: "sidebar-link #{'active' if controller_name == 'lecturas' && action_name == 'index'}",
+                  title: "Mi biblioteca" do %>
+
+              <i class="bi bi-bookmark-heart"></i>
+              <span>Mi biblioteca</span>
+
+            <% end %>
+
+            <% if current_usuario.administrador? %>
+
+              <p class="sidebar-section-title sidebar-admin-title">
+                Administración
+              </p>
+
+              <%= link_to administrar_usuarios_path,
+                    class: "sidebar-link #{'active' if controller_name == 'usuarios' && action_name == 'index'}",
+                    title: "Usuarios" do %>
+                <i class="bi bi-people"></i>
+                <span>Usuarios</span>
+              <% end %>
+
+              <%= link_to libros_archivados_path,
+                    class: "sidebar-link #{'active' if controller_name == 'libros' && action_name == 'archivados'}",
+                    title: "Libros archivados" do %>
+
+                <i class="bi bi-archive"></i>
+                <span>Libros archivados</span>
+
+              <% end %>
+
+
+              <%= link_to new_libro_path,
+                    class: "sidebar-link #{'active' if controller_name == 'libros' && action_name == 'new'}",
+                    title: "Agregar libro" do %>
+
+                <i class="bi bi-plus-circle"></i>
+                <span>Agregar libro</span>
+
+              <% end %>
+
+            <% end %>
+
+          </nav>
+
+
+          <!-- Usuario -->
+
+          <div class="sidebar-user">
+
+            <div class="sidebar-user-info">
+
+              <div
+                class="sidebar-avatar"
+                title="<%= "#{current_usuario.nombre} #{current_usuario.apellido}" %>"
+              >
+                <%= current_usuario.nombre.first.upcase %>
+              </div>
+
+              <div class="sidebar-user-text">
+
+                <strong>
+                  <%= current_usuario.nombre %>
+                  <%= current_usuario.apellido %>
+                </strong>
+
+                <span>
+                  <% if current_usuario.administrador? %>
+                    Administrador
+                  <% elsif current_usuario.demo? %>
+                    Demo
+                  <% else %>
+                    Usuario
+                  <% end %>
+                </span>
+
+              </div>
+
+            </div>
+
+
+            <%= button_to logout_path,
+                  method: :delete,
+                  class: "sidebar-logout",
+                  title: "Cerrar sesión" do %>
+
+              <i class="bi bi-box-arrow-right"></i>
+
+            <% end %>
+
+          </div>
+
+        </aside>
+
+
+        <!-- =========================================
+             Contenido principal
+             ========================================= -->
+
+        <div class="app-content">
+
+          <!-- Botón hamburguesa cuando el sidebar está oculto -->
+
+          <button
+            type="button"
+            class="sidebar-open-button"
+            id="sidebarOpenButton"
+            aria-label="Mostrar menú lateral"
+            title="Mostrar menú"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+
+
+          <main class="app-main">
+
+            <% if notice.present? %>
+              <div class="alert alert-success app-alert" role="alert">
+                <i class="bi bi-check-circle me-2"></i>
+                <%= notice %>
+              </div>
+            <% end %>
+
+            <% if alert.present? %>
+              <div class="alert alert-danger app-alert" role="alert">
+                <i class="bi bi-exclamation-circle me-2"></i>
+                <%= alert %>
+              </div>
+            <% end %>
+
+            <%= yield %>
+
+          </main>
+
+        </div>
+
+      </div>
+
+
+      <!-- =========================================
+           Comportamiento del sidebar
+           ========================================= -->
+
+      <script>
+        function initializeSidebar() {
+          const layout = document.getElementById("appLayout");
+          const toggleButton = document.getElementById("sidebarToggle");
+          const openButton = document.getElementById("sidebarOpenButton");
+
+          if (!layout || !toggleButton || !openButton) return;
+
+          const storageKey = "biblioteca-sidebar-collapsed";
+
+          function setSidebarState(collapsed) {
+            layout.classList.toggle("sidebar-collapsed", collapsed);
+
+            toggleButton.setAttribute(
+              "aria-expanded",
+              collapsed ? "false" : "true"
+            );
+
+            toggleButton.setAttribute(
+              "aria-label",
+              collapsed ? "Mostrar menú lateral" : "Contraer menú lateral"
+            );
+
+            toggleButton.title = collapsed
+              ? "Mostrar menú"
+              : "Contraer menú";
+
+            localStorage.setItem(storageKey, collapsed ? "true" : "false");
+          }
+
+          const savedState = localStorage.getItem(storageKey);
+
+          setSidebarState(savedState === "true");
+
+          toggleButton.onclick = function () {
+            setSidebarState(
+              !layout.classList.contains("sidebar-collapsed")
+            );
+          };
+
+          openButton.onclick = function () {
+            setSidebarState(false);
+          };
+        }
+
+        document.addEventListener("turbo:load", initializeSidebar);
+        document.addEventListener("DOMContentLoaded", initializeSidebar);
+      </script>
+
+    <% else %>
+
+      <!-- Login y registro -->
+
+      <main class="container py-5">
+
+        <% if notice.present? %>
+          <div class="alert alert-success" role="alert">
+            <%= notice %>
+          </div>
+        <% end %>
+
+        <% if alert.present? %>
+          <div class="alert alert-danger" role="alert">
+            <%= alert %>
+          </div>
+        <% end %>
+
+        <%= yield %>
+
+      </main>
+
+    <% end %>
+
+  </body>
+</html>

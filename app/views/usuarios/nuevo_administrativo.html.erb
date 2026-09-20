@@ -1,0 +1,162 @@
+<div class="users-admin-header">
+
+  <div>
+    <span class="catalog-eyebrow">
+      Administración
+    </span>
+
+    <h1 class="catalog-title">
+      Agregar usuario
+    </h1>
+
+    <p class="catalog-subtitle">
+      Crea una nueva cuenta y define sus permisos dentro de la biblioteca.
+    </p>
+  </div>
+
+</div>
+
+
+<div class="users-admin-panel">
+
+  <div class="users-admin-panel-header">
+
+    <div>
+      <h2>Información del usuario</h2>
+
+      <p>
+        Completa los datos necesarios para crear la nueva cuenta.
+      </p>
+    </div>
+
+  </div>
+
+
+  <div class="user-management-content">
+
+    <% if @usuario.errors.any? %>
+
+      <div class="alert alert-danger">
+
+        <strong>
+          No se pudo crear el usuario.
+        </strong>
+
+        <ul class="mb-0 mt-2">
+          <% @usuario.errors.full_messages.each do |mensaje| %>
+            <li><%= mensaje %></li>
+          <% end %>
+        </ul>
+
+      </div>
+
+    <% end %>
+
+
+    <%= form_with model: @usuario,
+          url: crear_usuario_administrativo_path,
+          method: :post,
+          class: "admin-user-form" do |form| %>
+
+      <div class="admin-user-form-grid">
+
+        <div>
+          <%= form.label :nombre,
+                "Nombre",
+                class: "form-label" %>
+
+          <%= form.text_field :nombre,
+                class: "form-control",
+                autocomplete: "given-name",
+                required: true %>
+        </div>
+
+
+        <div>
+          <%= form.label :apellido,
+                "Apellido",
+                class: "form-label" %>
+
+          <%= form.text_field :apellido,
+                class: "form-control",
+                autocomplete: "family-name",
+                required: true %>
+        </div>
+
+
+        <div class="admin-user-form-full">
+          <%= form.label :email,
+                "Correo electrónico",
+                class: "form-label" %>
+
+          <%= form.email_field :email,
+                class: "form-control",
+                autocomplete: "email",
+                required: true %>
+        </div>
+
+
+        <div>
+          <%= form.label :password,
+                "Contraseña",
+                class: "form-label" %>
+
+          <%= form.password_field :password,
+                class: "form-control",
+                autocomplete: "new-password",
+                required: true %>
+        </div>
+
+
+        <div>
+          <%= form.label :password_confirmation,
+                "Confirmar contraseña",
+                class: "form-label" %>
+
+          <%= form.password_field :password_confirmation,
+                class: "form-control",
+                autocomplete: "new-password",
+                required: true %>
+        </div>
+
+
+        <div class="admin-user-form-full">
+          <%= form.label :rol,
+                "Rol",
+                class: "form-label" %>
+
+          <%= form.select :rol,
+                [
+                  ["Usuario", "usuario"],
+                  ["Administrador", "administrador"]
+                ],
+                { selected: @usuario.rol.presence || "usuario" },
+                class: "form-select" %>
+
+          <div class="form-text">
+            Los administradores pueden gestionar el catálogo y las cuentas de usuario.
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="user-management-actions">
+
+        <%= link_to administrar_usuarios_path,
+              class: "user-management-back" do %>
+          <i class="bi bi-arrow-left"></i>
+          Volver a usuarios
+        <% end %>
+
+
+        <%= form.submit "Crear usuario",
+              class: "btn reading-save-button" %>
+
+      </div>
+
+    <% end %>
+
+  </div>
+
+</div>

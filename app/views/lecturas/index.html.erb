@@ -1,0 +1,323 @@
+<!-- =========================================
+     Encabezado
+     ========================================= -->
+
+<div class="my-library-header">
+
+  <div>
+    <p class="catalog-eyebrow mb-2">
+      Tu colección personal
+    </p>
+
+    <h1 class="catalog-title mb-2">
+      Mi biblioteca
+    </h1>
+
+    <p class="catalog-subtitle mb-0">
+      Organiza tus lecturas y consulta tu progreso personal
+    </p>
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     Resumen de lectura
+     ========================================= -->
+
+<div class="my-library-stats">
+
+  <div class="my-library-stat-card">
+    <div class="my-library-stat-icon">
+      <i class="bi bi-bookshelf"></i>
+    </div>
+
+    <div>
+      <span class="my-library-stat-number">
+        <%= @total_lecturas %>
+      </span>
+
+      <span class="my-library-stat-label">
+        Total
+      </span>
+    </div>
+  </div>
+
+
+  <div class="my-library-stat-card">
+    <div class="my-library-stat-icon">
+      <i class="bi bi-clock"></i>
+    </div>
+
+    <div>
+      <span class="my-library-stat-number">
+        <%= @total_pendientes %>
+      </span>
+
+      <span class="my-library-stat-label">
+        Pendientes
+      </span>
+    </div>
+  </div>
+
+
+  <div class="my-library-stat-card">
+    <div class="my-library-stat-icon">
+      <i class="bi bi-book"></i>
+    </div>
+
+    <div>
+      <span class="my-library-stat-number">
+        <%= @total_en_proceso %>
+      </span>
+
+      <span class="my-library-stat-label">
+        En proceso
+      </span>
+    </div>
+  </div>
+
+
+  <div class="my-library-stat-card">
+    <div class="my-library-stat-icon">
+      <i class="bi bi-check-circle"></i>
+    </div>
+
+    <div>
+      <span class="my-library-stat-number">
+        <%= @total_leidos %>
+      </span>
+
+      <span class="my-library-stat-label">
+        Leídos
+      </span>
+    </div>
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     Filtros
+     ========================================= -->
+
+<div class="my-library-toolbar">
+
+  <div>
+    <h2 class="my-library-section-title">
+      Mis libros
+    </h2>
+
+    <p class="my-library-section-subtitle">
+      Libros que has agregado a tu progreso de lectura
+    </p>
+  </div>
+
+
+  <div class="my-library-filters">
+
+    <%= link_to "Todos",
+          mi_biblioteca_path,
+          class: "my-library-filter #{@estado.nil? ? 'active' : ''}" %>
+
+    <%= link_to "Pendientes",
+          mi_biblioteca_path(estado: "pendiente"),
+          class: "my-library-filter #{@estado == 'pendiente' ? 'active' : ''}" %>
+
+    <%= link_to "En proceso",
+          mi_biblioteca_path(estado: "en_proceso"),
+          class: "my-library-filter #{@estado == 'en_proceso' ? 'active' : ''}" %>
+
+    <%= link_to "Leídos",
+          mi_biblioteca_path(estado: "leido"),
+          class: "my-library-filter #{@estado == 'leido' ? 'active' : ''}" %>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================
+     Libros
+     ========================================= -->
+
+<% if @lecturas.any? %>
+
+  <div class="my-library-grid">
+
+    <% @lecturas.each do |lectura| %>
+
+      <% libro = lectura.libro %>
+
+      <article class="my-library-book-card">
+
+        <%= link_to libro_path(libro),
+              class: "my-library-book-link" do %>
+
+          <!-- Portada -->
+
+          <div class="my-library-cover">
+
+            <% if libro.portada_url.present? %>
+
+              <%= image_tag libro.portada_url,
+                    alt: "Portada de #{libro.titulo}",
+                    class: "my-library-cover-image",
+                    loading: "lazy" %>
+
+            <% else %>
+
+              <div class="book-cover-placeholder">
+
+                <div class="book-cover-placeholder-icon">
+                  <i class="bi bi-book"></i>
+                </div>
+
+                <div class="book-cover-placeholder-content">
+
+                  <span class="book-cover-placeholder-title">
+                    <%= libro.titulo %>
+                  </span>
+
+                  <span class="book-cover-placeholder-author">
+                    <%= libro.autor %>
+                  </span>
+
+                </div>
+
+              </div>
+
+            <% end %>
+
+          </div>
+
+
+          <!-- Información -->
+
+          <div class="my-library-book-content">
+
+            <div class="my-library-book-top">
+
+              <span class="book-category">
+                <%= libro.categoria.nombre %>
+              </span>
+
+
+              <% if lectura.estado == "leido" %>
+
+                <span class="my-library-status status-read">
+                  <i class="bi bi-check-circle"></i>
+                  Leído
+                </span>
+
+              <% elsif lectura.estado == "en_proceso" %>
+
+                <span class="my-library-status status-progress">
+                  <i class="bi bi-book"></i>
+                  En proceso
+                </span>
+
+              <% else %>
+
+                <span class="my-library-status status-pending">
+                  <i class="bi bi-clock"></i>
+                  Pendiente
+                </span>
+
+              <% end %>
+
+            </div>
+
+
+            <h3 class="my-library-book-title">
+              <%= libro.titulo %>
+            </h3>
+
+            <p class="my-library-book-author">
+              <%= libro.autor %>
+            </p>
+
+
+            <div class="my-library-book-meta">
+
+              <% if lectura.fecha_inicio.present? %>
+
+                <span>
+                  <i class="bi bi-calendar3"></i>
+                  Inicio:
+                  <%= lectura.fecha_inicio.strftime("%d/%m/%Y") %>
+                </span>
+
+              <% end %>
+
+
+              <% if lectura.fecha_finalizacion.present? %>
+
+                <span>
+                  <i class="bi bi-check2"></i>
+                  Finalizado:
+                  <%= lectura.fecha_finalizacion.strftime("%d/%m/%Y") %>
+                </span>
+
+              <% end %>
+
+            </div>
+
+          </div>
+
+        <% end %>
+
+      </article>
+
+    <% end %>
+
+  </div>
+
+
+<% else %>
+
+  <!-- =========================================
+       Estado vacío
+       ========================================= -->
+
+  <div class="my-library-empty">
+
+    <div class="my-library-empty-icon">
+      <i class="bi bi-book"></i>
+    </div>
+
+
+    <% if @estado.present? %>
+
+      <h2>
+        No tienes libros en este estado
+      </h2>
+
+      <p>
+        Prueba seleccionando otro filtro para consultar tus lecturas
+      </p>
+
+      <%= link_to "Ver todas mis lecturas",
+            mi_biblioteca_path,
+            class: "btn catalog-primary-button" %>
+
+    <% else %>
+
+      <h2>
+        Tu biblioteca personal está vacía
+      </h2>
+
+      <p>
+        Cuando registres el progreso de un libro aparecerá aquí
+      </p>
+
+      <%= link_to "Explorar el catálogo",
+            libros_path,
+            class: "btn catalog-primary-button" %>
+
+    <% end %>
+
+  </div>
+
+<% end %>
+

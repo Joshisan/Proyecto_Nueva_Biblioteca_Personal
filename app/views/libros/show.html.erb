@@ -1,0 +1,462 @@
+<!-- =========================================
+     Navegación y acciones
+     ========================================= -->
+
+<div class="book-detail-toolbar">
+
+  <%= link_to libros_path, class: "book-detail-back" do %>
+    <i class="bi bi-arrow-left"></i>
+    Volver al catálogo
+  <% end %>
+
+  <% if current_usuario.administrador? %>
+    <div class="book-detail-actions">
+
+      <%= link_to edit_libro_path(@libro),
+            class: "btn book-detail-edit-button" do %>
+        <i class="bi bi-pencil me-2"></i>
+        Editar libro
+      <% end %>
+
+      <% if @libro.activo? %>
+        <%= button_to archivar_libro_path(@libro),
+              method: :patch,
+              class: "btn book-detail-archive-button",
+              form: {
+                data: {
+                  turbo_confirm: "¿Seguro que deseas archivar este libro?"
+                }
+              } do %>
+          <i class="bi bi-archive me-2"></i>
+          Archivar
+        <% end %>
+      <% end %>
+
+    </div>
+  <% end %>
+
+</div>
+
+
+<!-- =========================================
+     Información principal del libro
+     ========================================= -->
+
+<section class="book-detail-hero">
+
+  <!-- Portada -->
+
+  <div class="book-detail-cover-wrapper">
+
+    <div class="book-detail-cover">
+
+      <% if @libro.portada_url.present? %>
+
+        <%= image_tag @libro.portada_url,
+              alt: "Portada de #{@libro.titulo}",
+              class: "book-detail-cover-image" %>
+
+      <% else %>
+
+        <div class="book-detail-cover-placeholder">
+
+          <div class="book-detail-cover-icon">
+            <i class="bi bi-book"></i>
+          </div>
+
+          <div>
+            <span class="book-detail-placeholder-title">
+              <%= @libro.titulo %>
+            </span>
+
+            <span class="book-detail-placeholder-author">
+              <%= @libro.autor %>
+            </span>
+          </div>
+
+        </div>
+
+      <% end %>
+
+    </div>
+
+  </div>
+
+
+  <!-- Datos -->
+
+  <div class="book-detail-information">
+
+    <span class="book-detail-category">
+      <%= @libro.categoria.nombre %>
+    </span>
+
+    <h1 class="book-detail-title">
+      <%= @libro.titulo %>
+    </h1>
+
+    <p class="book-detail-author">
+      <%= @libro.autor %>
+    </p>
+
+
+    <div class="book-detail-metadata">
+
+      <div class="book-detail-meta-item">
+        <span class="book-detail-meta-icon">
+          <i class="bi bi-building"></i>
+        </span>
+
+        <div>
+          <span class="book-detail-meta-label">
+            Editorial
+          </span>
+
+          <strong>
+            <%= @libro.editorial.presence || "No registrada" %>
+          </strong>
+        </div>
+      </div>
+
+
+      <div class="book-detail-meta-item">
+        <span class="book-detail-meta-icon">
+          <i class="bi bi-calendar3"></i>
+        </span>
+
+        <div>
+          <span class="book-detail-meta-label">
+            Publicación original
+          </span>
+
+          <strong>
+            <%= @libro.anio_publicacion.presence || "No registrada" %>
+          </strong>
+        </div>
+      </div>
+
+
+      <div class="book-detail-meta-item">
+        <span class="book-detail-meta-icon">
+          <i class="bi bi-calendar-check"></i>
+        </span>
+
+        <div>
+          <span class="book-detail-meta-label">
+            Año de esta edición
+          </span>
+
+          <strong>
+            <%= @libro.anio_edicion.presence || "No registrado" %>
+          </strong>
+        </div>
+      </div>
+
+
+      <div class="book-detail-meta-item">
+        <span class="book-detail-meta-icon">
+          <i class="bi bi-translate"></i>
+        </span>
+
+        <div>
+          <span class="book-detail-meta-label">
+            Idioma
+          </span>
+
+          <strong>
+            <%= @libro.idioma.presence || "No registrado" %>
+          </strong>
+        </div>
+      </div>
+
+
+      <div class="book-detail-meta-item">
+        <span class="book-detail-meta-icon">
+          <i class="bi bi-upc-scan"></i>
+        </span>
+
+        <div>
+          <span class="book-detail-meta-label">
+            ISBN
+          </span>
+
+          <strong>
+            <%= @libro.isbn.presence || "No registrado" %>
+          </strong>
+        </div>
+      </div>
+
+
+      <div class="book-detail-meta-item">
+        <span class="book-detail-meta-icon">
+          <i class="bi bi-bookshelf"></i>
+        </span>
+
+        <div>
+          <span class="book-detail-meta-label">
+            Ejemplares
+          </span>
+
+          <strong>
+            <%= @libro.unidades %>
+          </strong>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- =========================================
+     Mi lectura
+     ========================================= -->
+
+<section class="reading-panel">
+
+  <div class="reading-panel-header">
+
+    <div>
+      <span class="reading-eyebrow">
+        Progreso personal
+      </span>
+
+      <h2>
+        Mi lectura
+      </h2>
+    </div>
+
+
+    <% if @lectura.present? %>
+
+      <% if @lectura.estado == "leido" %>
+
+        <span class="reading-status reading-status-read">
+          <i class="bi bi-check-circle"></i>
+          Leído
+        </span>
+
+      <% elsif @lectura.estado == "en_proceso" %>
+
+        <span class="reading-status reading-status-progress">
+          <i class="bi bi-book-half"></i>
+          En proceso
+        </span>
+
+      <% else %>
+
+        <span class="reading-status reading-status-pending">
+          <i class="bi bi-clock"></i>
+          Pendiente
+        </span>
+
+      <% end %>
+
+    <% end %>
+
+  </div>
+
+
+  <% if @lectura.present? %>
+
+    <div class="reading-summary">
+
+      <div class="reading-summary-item">
+
+        <span class="reading-summary-icon">
+          <i class="bi bi-calendar-plus"></i>
+        </span>
+
+        <div>
+          <span>Fecha de inicio</span>
+
+          <strong>
+            <%= @lectura.fecha_inicio || "No registrada" %>
+          </strong>
+        </div>
+
+      </div>
+
+
+      <div class="reading-summary-item">
+
+        <span class="reading-summary-icon">
+          <i class="bi bi-calendar-check"></i>
+        </span>
+
+        <div>
+          <span>Fecha de finalización</span>
+
+          <strong>
+            <%= @lectura.fecha_finalizacion || "No registrada" %>
+          </strong>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <% if @lectura.notas.present? %>
+
+      <div class="reading-current-notes">
+
+        <span class="reading-notes-label">
+          <i class="bi bi-journal-text"></i>
+          Mis notas
+        </span>
+
+        <p>
+          <%= @lectura.notas %>
+        </p>
+
+      </div>
+
+    <% end %>
+
+  <% else %>
+
+    <div class="reading-empty">
+
+      <span class="reading-empty-icon">
+        <i class="bi bi-bookmark"></i>
+      </span>
+
+      <div>
+        <strong>
+          Aún no has registrado tu lectura
+        </strong>
+
+        <p>
+          Selecciona un estado para comenzar a registrar tu progreso con este libro.
+        </p>
+      </div>
+
+    </div>
+
+  <% end %>
+
+
+  <% if current_usuario.demo? %>
+
+    <div class="reading-demo-message">
+      <i class="bi bi-eye"></i>
+
+      <span>
+        La cuenta demo es de solo lectura y no puede modificar el progreso.
+      </span>
+    </div>
+
+  <% else %>
+
+    <div class="reading-form-section">
+
+      <div class="reading-form-heading">
+        <h3>
+          Actualizar mi lectura
+        </h3>
+
+        <p>
+          El progreso y las notas son personales y solo pertenecen a tu cuenta.
+        </p>
+      </div>
+
+
+      <%= form_with url: libro_lectura_path(@libro),
+            method: :post,
+            class: "reading-form" do %>
+
+        <div class="reading-form-grid">
+
+          <div>
+            <%= label_tag :estado,
+                  "Estado de lectura",
+                  class: "form-label" %>
+
+            <%= select_tag :estado,
+                  options_for_select(
+                    [
+                      ["Pendiente", "pendiente"],
+                      ["En proceso", "en_proceso"],
+                      ["Leído", "leido"]
+                    ],
+                    @lectura&.estado || "pendiente"
+                  ),
+                  class: "form-select" %>
+          </div>
+
+
+          <div class="reading-notes-field">
+
+            <%= label_tag :notas,
+                  "Notas personales",
+                  class: "form-label" %>
+
+            <%= text_area_tag :notas,
+                  @lectura&.notas,
+                  rows: 4,
+                  placeholder: "Escribe tus comentarios sobre este libro...",
+                  class: "form-control" %>
+          </div>
+
+        </div>
+
+
+        <div class="reading-form-actions">
+
+  <%= submit_tag "Guardar cambios",
+        class: "btn reading-save-button" %>
+
+</div>
+
+<% end %>
+
+
+<% if @lectura.present? %>
+
+  <div class="reading-remove-section">
+
+    <div class="reading-remove-info">
+
+      <span class="reading-remove-icon">
+        <i class="bi bi-trash3"></i>
+      </span>
+
+      <div>
+        <strong>
+          Quitar de Mi biblioteca
+        </strong>
+
+        <p>
+          Se eliminarán tu estado, notas y fechas de lectura de este libro.
+        </p>
+      </div>
+
+    </div>
+
+
+    <%= button_to eliminar_libro_lectura_path(@libro),
+          method: :delete,
+          class: "btn reading-remove-button",
+          form: {
+            data: {
+              turbo_confirm: "¿Seguro que deseas quitar este libro de Mi biblioteca? Se eliminarán tu estado, notas y fechas de lectura."
+            }
+          } do %>
+
+      <i class="bi bi-trash3 me-2"></i>
+      Quitar
+
+    <% end %>
+
+  </div>
+
+<% end %>
+
+</div>
+
+  <% end %>
+
+</section>

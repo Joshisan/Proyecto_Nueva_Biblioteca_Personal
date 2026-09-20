@@ -1,0 +1,121 @@
+<div class="users-admin-header">
+
+  <div>
+    <span class="catalog-eyebrow">
+      Administración
+    </span>
+
+    <h1 class="catalog-title">
+      Editar usuario
+    </h1>
+
+    <p class="catalog-subtitle">
+      Gestiona el rol asignado a esta cuenta.
+    </p>
+  </div>
+
+</div>
+
+
+<div class="users-admin-panel">
+
+  <div class="users-admin-panel-header">
+
+    <div>
+      <h2>
+        <%= @usuario.nombre %> <%= @usuario.apellido %>
+      </h2>
+
+      <p>
+        <%= @usuario.email %>
+      </p>
+    </div>
+
+  </div>
+
+
+  <div class="user-management-content">
+
+    <div class="user-management-current">
+
+      <div>
+        <span class="user-management-label">
+          Rol actual
+        </span>
+
+        <strong>
+          <%= @usuario.administrador? ? "Administrador" : "Usuario" %>
+        </strong>
+      </div>
+
+
+      <div>
+        <span class="user-management-label">
+          Estado
+        </span>
+
+        <strong>
+          <%= @usuario.activo? ? "Activo" : "Inactivo" %>
+        </strong>
+      </div>
+
+    </div>
+
+
+    <%= form_with model: @usuario,
+          url: actualizar_usuario_path(@usuario),
+          method: :patch,
+          class: "user-role-form" do |form| %>
+
+      <div class="user-role-form-heading">
+
+        <h3>
+          Cambiar rol
+        </h3>
+
+        <p>
+          El rol determina los permisos que esta cuenta tiene dentro de la biblioteca.
+        </p>
+
+      </div>
+
+
+      <div class="user-role-field">
+
+        <%= form.label :rol,
+              "Rol del usuario",
+              class: "form-label" %>
+
+        <%= form.select :rol,
+              [
+                ["Usuario", "usuario"],
+                ["Administrador", "administrador"]
+              ],
+              {},
+              class: "form-select" %>
+
+      </div>
+
+
+      <div class="user-management-actions">
+
+        <%= link_to administrar_usuarios_path,
+              class: "user-management-back" do %>
+          <i class="bi bi-arrow-left"></i>
+          Volver a usuarios
+        <% end %>
+
+
+        <%= form.submit "Guardar cambios",
+              class: "btn reading-save-button",
+              data: {
+                turbo_confirm: "¿Seguro que deseas cambiar el rol de este usuario?"
+              } %>
+
+      </div>
+
+    <% end %>
+
+  </div>
+
+</div>

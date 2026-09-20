@@ -1,0 +1,204 @@
+<div class="login-page">
+  <div class="login-shell">
+
+    <section class="login-showcase">
+      <div class="login-showcase-content">
+
+        <div class="login-brand">
+          <div class="login-brand-icon">
+            <i class="bi bi-book"></i>
+          </div>
+
+          <div>
+            <strong>Biblioteca</strong>
+            <span>Personal</span>
+          </div>
+        </div>
+
+        <div class="login-showcase-copy">
+          <span class="login-eyebrow">TU COLECCIÓN PERSONAL</span>
+
+          <h1>
+            Tus libros,<br>
+            tus historias.
+          </h1>
+
+          <p>
+            Explora tu colección, registra tus lecturas y lleva el control
+            de tu progreso desde un solo lugar.
+          </p>
+        </div>
+
+        <div class="login-showcase-features">
+          <div class="login-feature">
+            <span class="login-feature-icon">
+              <i class="bi bi-collection"></i>
+            </span>
+
+            <div>
+              <strong>Explora tu biblioteca</strong>
+              <span>Consulta todos los libros disponibles</span>
+            </div>
+          </div>
+
+          <div class="login-feature">
+            <span class="login-feature-icon">
+              <i class="bi bi-bookmark-check"></i>
+            </span>
+
+            <div>
+              <strong>Registra tus lecturas</strong>
+              <span>Lleva tu progreso de forma personal</span>
+            </div>
+          </div>
+
+          <div class="login-feature">
+            <span class="login-feature-icon">
+              <i class="bi bi-bar-chart"></i>
+            </span>
+
+            <div>
+              <strong>Consulta tu progreso</strong>
+              <span>Visualiza el avance de tus lecturas</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="login-decoration login-decoration-one"></div>
+      <div class="login-decoration login-decoration-two"></div>
+      <div class="login-decoration login-decoration-three"></div>
+    </section>
+
+    <section class="login-access">
+      <div class="login-form-container"
+           data-controller="demo-login">
+
+        <div class="login-mobile-brand">
+          <div class="login-brand-icon">
+            <i class="bi bi-book"></i>
+          </div>
+
+          <div>
+            <strong>Biblioteca</strong>
+            <span>Personal</span>
+          </div>
+        </div>
+
+        <div class="login-heading">
+          <span class="login-eyebrow login-eyebrow-dark">
+            BIENVENIDO
+          </span>
+
+          <h2>Iniciar sesión</h2>
+
+          <p>
+            Ingresa tus datos para continuar a tu biblioteca
+          </p>
+        </div>
+
+        <%= form_with url: login_path, class: "login-form" do |form| %>
+
+          <div class="login-field">
+            <%= form.label :email,
+                  "Correo electrónico",
+                  class: "login-label" %>
+
+            <div class="login-input-wrapper">
+              <i class="bi bi-envelope login-input-icon"></i>
+
+              <%= form.email_field :email,
+                    required: true,
+                    autofocus: true,
+                    autocomplete: "email",
+                    placeholder: "nombre@correo.com",
+                    class: "form-control login-input",
+                    data: {
+                      demo_login_target: "email"
+                    } %>
+            </div>
+          </div>
+
+          <div class="login-field">
+            <%= form.label :password,
+                  "Contraseña",
+                  class: "login-label" %>
+
+            <div class="input-group login-password"
+                 data-controller="password-visibility">
+
+              <span class="login-password-icon">
+                <i class="bi bi-lock"></i>
+              </span>
+
+              <%= form.password_field :password,
+                    required: true,
+                    autocomplete: "current-password",
+                    placeholder: "Ingresa tu contraseña",
+                    class: "form-control login-input login-password-input",
+                    data: {
+                      password_visibility_target: "input",
+                      demo_login_target: "password"
+                    } %>
+
+              <button type="button"
+                      class="login-password-toggle"
+                      data-action="password-visibility#toggle"
+                      aria-label="Mostrar contraseña"
+                      title="Mostrar u ocultar contraseña">
+
+                <i class="bi bi-eye"
+                   data-password-visibility-target="icon"></i>
+              </button>
+
+            </div>
+          </div>
+
+          <div class="d-grid login-submit-wrapper">
+            <%= form.submit "Iniciar sesión",
+                  class: "btn login-submit" %>
+          </div>
+
+        <% end %>
+
+        <div class="login-divider">
+          <span>o</span>
+        </div>
+
+        <div class="login-demo">
+          <div class="login-demo-icon">
+            <i class="bi bi-eye"></i>
+          </div>
+
+          <div class="login-demo-copy">
+            <strong>¿Solo quieres conocer la aplicación?</strong>
+
+            <span>
+              Explora la biblioteca utilizando una cuenta
+              de solo lectura
+            </span>
+
+            <button type="button"
+                    class="login-demo-button"
+                    data-action="demo-login#completar">
+              Explorar con cuenta demo
+              <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="login-register">
+          <span>¿Quieres tener tu propia cuenta?</span>
+
+          <%= link_to registro_path do %>
+            Solicitar acceso
+            <i class="bi bi-arrow-right"></i>
+          <% end %>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+</div>

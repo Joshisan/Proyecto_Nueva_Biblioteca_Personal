@@ -1,0 +1,173 @@
+<div class="dashboard-header mb-4">
+  <p class="dashboard-eyebrow mb-2">
+    Mi biblioteca
+  </p>
+
+  <h1 class="dashboard-title mb-2">
+    Hola, <%= current_usuario.nombre %>
+  </h1>
+
+  <p class="dashboard-subtitle mb-0">
+    Tu biblioteca, tus lecturas y tu progreso en un solo lugar
+  </p>
+</div>
+
+
+<div class="row g-4 mb-5">
+
+  <!-- Biblioteca -->
+
+  <div class="col-12 col-sm-6 col-xl-3">
+    <div class="stat-card stat-card-library h-100">
+
+      <div class="stat-card-top">
+        <div class="stat-icon stat-icon-library">
+          <i class="bi bi-bookshelf"></i>
+        </div>
+
+        <span class="stat-label">
+          Biblioteca
+        </span>
+      </div>
+
+      <div class="stat-value">
+        <%= @total_libros %>
+      </div>
+
+      <p class="stat-description mb-0">
+        libros en el catálogo
+      </p>
+
+    </div>
+  </div>
+
+
+  <!-- Leídos -->
+
+  <div class="col-12 col-sm-6 col-xl-3">
+    <div class="stat-card stat-card-read h-100">
+
+      <div class="stat-card-top">
+        <div class="stat-icon stat-icon-read">
+          <i class="bi bi-check2-circle"></i>
+        </div>
+
+        <span class="stat-label">
+          Leídos
+        </span>
+      </div>
+
+      <div class="stat-value">
+        <%= @total_leidos %>
+      </div>
+
+      <p class="stat-description mb-0">
+        libros terminados
+      </p>
+
+    </div>
+  </div>
+
+
+  <!-- En proceso -->
+
+  <div class="col-12 col-sm-6 col-xl-3">
+    <div class="stat-card stat-card-progress h-100">
+
+      <div class="stat-card-top">
+        <div class="stat-icon stat-icon-progress">
+          <i class="bi bi-book"></i>
+        </div>
+
+        <span class="stat-label">
+          En proceso
+        </span>
+      </div>
+
+      <div class="stat-value">
+        <%= @total_en_proceso %>
+      </div>
+
+      <p class="stat-description mb-0">
+        lecturas actuales
+      </p>
+
+    </div>
+  </div>
+
+
+  <!-- Pendientes -->
+
+  <div class="col-12 col-sm-6 col-xl-3">
+    <div class="stat-card stat-card-pending h-100">
+
+      <div class="stat-card-top">
+        <div class="stat-icon stat-icon-pending">
+          <i class="bi bi-bookmark"></i>
+        </div>
+
+        <span class="stat-label">
+          Pendientes
+        </span>
+      </div>
+
+      <div class="stat-value">
+        <%= @total_pendientes %>
+      </div>
+
+      <p class="stat-description mb-0">
+        libros por comenzar
+      </p>
+
+    </div>
+  </div>
+
+</div>
+
+
+<!-- Acceso al catálogo -->
+
+<section class="library-hero">
+
+  <div class="library-hero-content">
+
+    <span class="library-hero-icon">
+      <i class="bi bi-book-half"></i>
+    </span>
+
+    <div>
+      <p class="library-hero-eyebrow mb-2">
+        Tu colección
+      </p>
+
+      <h2 class="library-hero-title mb-3">
+        Siempre hay otra historia esperando
+      </h2>
+
+      <p class="library-hero-description mb-4">
+        Explora tu colección, encuentra tu próxima lectura y lleva
+        un registro personal de los libros que has leído
+      </p>
+
+      <%= link_to libros_path,
+            class: "btn library-primary-button" do %>
+
+        Explorar catálogo
+
+        <i class="bi bi-arrow-right ms-2"></i>
+
+      <% end %>
+    </div>
+
+  </div>
+
+
+  <div class="library-hero-decoration" aria-hidden="true">
+
+    <div class="decorative-book decorative-book-one"></div>
+    <div class="decorative-book decorative-book-two"></div>
+    <div class="decorative-book decorative-book-three"></div>
+
+  </div>
+
+</section>

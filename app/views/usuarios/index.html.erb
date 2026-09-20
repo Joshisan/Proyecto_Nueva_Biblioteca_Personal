@@ -1,0 +1,252 @@
+<div class="users-admin-header">
+
+  <div>
+    <span class="catalog-eyebrow">
+      Administración
+    </span>
+
+    <h1 class="catalog-title">
+      Usuarios
+    </h1>
+
+    <p class="catalog-subtitle">
+      Gestiona las cuentas registradas y sus permisos dentro de la biblioteca.
+    </p>
+  </div>
+
+  <%= link_to nuevo_usuario_administrativo_path,
+        class: "btn reading-save-button" do %>
+    <i class="bi bi-person-plus"></i>
+    Agregar usuario
+  <% end %>
+
+</div>
+
+
+<div class="users-admin-summary">
+
+  <div class="users-summary-card">
+    <span class="users-summary-icon">
+      <i class="bi bi-people"></i>
+    </span>
+
+    <div>
+      <strong><%= @usuarios.count %></strong>
+      <span>Total de usuarios</span>
+    </div>
+  </div>
+
+
+  <div class="users-summary-card">
+    <span class="users-summary-icon">
+      <i class="bi bi-person-check"></i>
+    </span>
+
+    <div>
+      <strong><%= @usuarios.count(&:activo?) %></strong>
+      <span>Activos</span>
+    </div>
+  </div>
+
+
+  <div class="users-summary-card">
+    <span class="users-summary-icon">
+      <i class="bi bi-shield-check"></i>
+    </span>
+
+    <div>
+      <strong><%= @usuarios.count(&:administrador?) %></strong>
+      <span>Administradores</span>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="users-admin-panel">
+
+  <div class="users-admin-panel-header">
+    <div>
+      <h2>Usuarios registrados</h2>
+      <p>
+        Consulta las cuentas y los roles asignados actualmente.
+      </p>
+    </div>
+  </div>
+
+
+  <div class="table-responsive">
+
+    <table class="table users-admin-table align-middle">
+
+      <thead>
+        <tr>
+          <th>Usuario</th>
+          <th>Correo electrónico</th>
+          <th>Rol</th>
+          <th>Estado</th>
+          <th>Registro</th>
+          <th>Gestión</th>
+          <th>Estado de cuenta</th>
+        </tr>
+      </thead>
+
+      <tbody>
+
+        <% @usuarios.each do |usuario| %>
+
+          <tr>
+
+            <td>
+              <div class="users-user-cell">
+
+                <span class="users-user-avatar">
+                  <%= usuario.nombre.first.upcase %>
+                </span>
+
+                <div>
+                  <strong>
+                    <%= usuario.nombre %> <%= usuario.apellido %>
+                  </strong>
+
+                  <% if usuario == current_usuario %>
+                    <span class="users-current-label">
+                      Tu cuenta
+                    </span>
+                  <% end %>
+                </div>
+
+              </div>
+            </td>
+
+
+            <td>
+              <%= usuario.email %>
+            </td>
+
+
+            <td>
+
+              <% if usuario.administrador? %>
+
+                <span class="users-role users-role-admin">
+                  <i class="bi bi-shield-check"></i>
+                  Administrador
+                </span>
+
+              <% elsif usuario.demo? %>
+
+                <span class="users-role users-role-demo">
+                  <i class="bi bi-eye"></i>
+                  Demo
+                </span>
+
+              <% else %>
+
+                <span class="users-role users-role-user">
+                  <i class="bi bi-person"></i>
+                  Usuario
+                </span>
+
+              <% end %>
+
+            </td>
+
+
+            <td>
+
+              <% if usuario.activo? %>
+
+                <span class="users-status users-status-active">
+                  <span></span>
+                  Activo
+                </span>
+
+              <% else %>
+
+                <span class="users-status users-status-inactive">
+                  <span></span>
+                  Inactivo
+                </span>
+
+              <% end %>
+
+            </td>
+
+
+            <td>
+              <%= usuario.created_at.strftime("%d/%m/%Y") %>
+            </td>
+
+
+            <td>
+              <% if usuario == current_usuario %>
+
+                <span class="users-action-current">
+                  Tu cuenta
+                </span>
+
+              <% elsif usuario.demo? %>
+
+                <span class="users-action-protected">
+                  Protegida
+                </span>
+
+              <% else %>
+
+                <%= link_to editar_usuario_path(usuario),
+                      class: "users-manage-link" do %>
+                  <i class="bi bi-pencil-square"></i>
+                  <span>Gestionar</span>
+                <% end %>
+
+              <% end %>
+            </td>
+
+
+            <td>
+              <% if usuario == current_usuario %>
+
+                <span class="users-action-unavailable">
+                  —
+                </span>
+
+              <% elsif usuario.demo? %>
+
+                <span class="users-action-unavailable">
+                  —
+                </span>
+
+              <% else %>
+
+                <%= button_to cambiar_estado_usuario_path(usuario),
+                      method: :patch,
+                      class: "users-status-action #{usuario.activo? ? 'users-status-action-disable' : 'users-status-action-enable'}",
+                      form: {
+                        data: {
+                          turbo_confirm: usuario.activo? ?
+                            "¿Seguro que deseas desactivar esta cuenta?" :
+                            "¿Seguro que deseas activar esta cuenta?"
+                        }
+                      } do %>
+
+                  <i class="bi <%= usuario.activo? ? 'bi-person-dash' : 'bi-person-check' %>"></i>
+
+                  <%= usuario.activo? ? "Desactivar" : "Activar" %>
+
+                <% end %>
+
+              <% end %>
+            </td>
+
+          </tr>
+
+        <% end %>
+
+      </tbody>
+
+    </table>
+
+  </div>
+
+</div>

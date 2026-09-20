@@ -1,0 +1,23 @@
+one:
+  isbn: "9780000000001"
+  titulo: Libro de prueba uno
+  autor: Autor Uno
+  categoria: one
+  anio_publicacion: 2020
+  anio_edicion: 2021
+  idioma: Español
+  editorial: Editorial Uno
+  unidades: 1
+  activo: true
+
+two:
+  isbn: "9780000000002"
+  titulo: Libro de prueba dos
+  autor: Autor Dos
+  categoria: two
+  anio_publicacion: 2022
+  anio_edicion: 2023
+  idioma: Español
+  editorial: Editorial Dos
+  unidades: 1
+  activo: true

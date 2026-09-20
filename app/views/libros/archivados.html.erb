@@ -1,0 +1,81 @@
+<div class="mb-4">
+  <%= link_to "← Volver al catálogo",
+        libros_path,
+        class: "text-decoration-none text-secondary" %>
+</div>
+
+<div class="d-flex justify-content-between align-items-start gap-3 mb-4">
+  <div>
+    <h1 class="display-6 fw-bold mb-2">
+      Libros archivados
+    </h1>
+
+    <p class="text-secondary mb-0">
+      <%= pluralize(@libros.count, "libro archivado", "libros archivados") %>
+    </p>
+  </div>
+</div>
+
+<% if @libros.any? %>
+
+  <div class="card border-0 shadow-sm">
+    <div class="table-responsive">
+      <table class="table table-hover align-middle mb-0">
+
+        <thead class="table-light">
+          <tr>
+            <th class="px-4 py-3">Título</th>
+            <th class="py-3">Autor</th>
+            <th class="py-3">Categoría</th>
+            <th class="py-3">Editorial</th>
+            <th class="py-3 text-end pe-4">Acciones</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% @libros.each do |libro| %>
+            <tr>
+              <td class="px-4 py-3">
+                <%= link_to libro.titulo,
+                      libro_path(libro),
+                      class: "fw-semibold text-decoration-none" %>
+              </td>
+
+              <td class="py-3">
+                <%= libro.autor %>
+              </td>
+
+              <td class="py-3">
+                <%= libro.categoria.nombre %>
+              </td>
+
+              <td class="py-3">
+                <%= libro.editorial.presence || "—" %>
+              </td>
+
+              <td class="py-3 text-end pe-4">
+                <%= button_to "Restaurar",
+                      restaurar_libro_path(libro),
+                      method: :patch,
+                      class: "btn btn-sm btn-outline-success",
+                      form: {
+                        data: {
+                          turbo_confirm: "¿Deseas restaurar este libro al catálogo?"
+                        }
+                      } %>
+              </td>
+            </tr>
+          <% end %>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+
+<% else %>
+
+  <div class="alert alert-light border">
+    No hay libros archivados.
+  </div>
+
+<% end %>
